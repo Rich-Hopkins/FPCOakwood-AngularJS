@@ -1,0 +1,259 @@
+﻿<div class="row">
+	<div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12">
+		<div class="col-md-10 col-md-offset-1 col-sm-12">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1 col-sm-12">
+					<div ng-include src="'/../views/fireworksmenu/menu.html'"></div>
+				</div>
+			</div>
+			<div class="row">
+				<p>Use this form to help you count the drawer at the end of the night. Enter the <span class="red-text">amount (in dollars and cents)</span> of each type of bill/coin.</p>
+				<div class="col-md-6 col-sm-12 transparentWhite">
+					<h2 class="text-center">First Counter</h2>
+
+					<form class="form-horizontal" role="form" name="user1" novalidate>
+						<div class="form-group">
+							<label for="inputHundreds1" class="col-sm-6 control-label">Hundreds:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid100 valid-number class="form-control" name="hundreds1" id="inputHundreds1" ng-model="hundreds1" />
+							</div>
+							<div class="col-sm-6 col-sm-offset-3 error" ng-show="user1.hundreds1.$invalid">Must be $100 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputFifties1" class="col-sm-6 control-label">Fifties:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid50 valid-number class="form-control" name="fifties1" id="inputFifties1" ng-model="fifties1" />
+							</div>
+							<div class="col-sm-6 col-sm-offset-3 error" ng-show="user1.fifties1.$invalid">Must be $50 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputTwenties1" class="col-sm-6 control-label">Twenties:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid20 valid-number class="form-control" name="twenties1" id="inputTwenties1" ng-model="twenties1" />
+							</div>
+							<div ng-show="user1.twenties1.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $20 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputTens1" class="col-sm-6 control-label">Tens:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid10 valid-number class="form-control" name="tens1" id="inputTens1" ng-model="tens1" />
+							</div>
+							<div ng-show="user1.tens1.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $10 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputFives1" class="col-sm-6 control-label">Fives:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid5 valid-number class="form-control" name="fives1" id="inputFives1" ng-model="fives1" />
+							</div>
+							<div ng-show="user1.fives1.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $5 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputOnes1" class="col-sm-6 control-label">Ones:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid1 valid-number class="form-control" name="ones1" id="inputOnes1" ng-model="ones1" />
+							</div>
+							<div ng-show="user1.ones1.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $1 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputDollars1" class="col-sm-6 control-label">Silver Dollars:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid1 valid-number class="form-control" name="dollars1" id="inputDollars1" ng-model="dollars1" />
+							</div>
+							<div ng-show="user1.dollars1.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $1 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputHalves1" class="col-sm-6 control-label">Half Dollars:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid050 valid-number class="form-control" name="halves1" id="inputHalves1" ng-model="halves1" />
+							</div>
+							<div ng-show="user1.halves1.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $0.50 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputQuarters1" class="col-sm-6 control-label">Quarters:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid025 valid-number class="form-control" name="quarters1" id="inputQuarters1" ng-model="quarters1" />
+							</div>
+							<div ng-show="user1.quarters1.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $0.25 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputDimes1" class="col-sm-6 control-label">Dimes:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid010 valid-number class="form-control" name="dimes1" id="inputDimes1" ng-model="dimes1" />
+							</div>
+							<div ng-show="user1.dimes1.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $0.10 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputNickels1" class="col-sm-6 control-label">Nickels:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid005 valid-number class="form-control" name="nickels1" id="inputNickels1" ng-model="nickels1" />
+							</div>
+							<div ng-show="user1.nickels1.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $0.05 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputPennies1" class="col-sm-6 control-label">Pennies:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid001 valid-number class="form-control" name="pennies1" id="inputPennies1" ng-model="pennies1" />
+							</div>
+							<div ng-show="user1.pennies1.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $0.01 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="outputTotal1" class="col-sm-6 control-label">Total:</label>
+							<div class="col-sm-4 input-group">
+								<div class="input-group-addon">$</div>
+								<input class="form-control" disabled="disabled" id="outputTotal1" value="{{total1()}}" /><br />
+							</div>
+						</div>
+
+					</form>
+				</div>
+				<div class="col-md-6 col-sm-12 transparentWhite">
+
+					<h2 class="text-center">Second Counter</h2>
+
+					<form class="form-horizontal" role="form" name="user2" novalidate>
+						<div class="form-group">
+							<label for="inputHundreds2" class="col-sm-6 control-label">Hundreds:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid100 valid-number class="form-control" name="hundreds2" id="inputHundreds2" ng-model="hundreds2" />
+							</div>
+							<div ng-show="user2.hundreds2.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $100 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputFifties2" class="col-sm-6 control-label">Fifties:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid50 valid-numbe step=".01" r class="form-control" name="fifties2" id="inputFifties2" ng-model="fifties2" />
+							</div>
+							<div ng-show="user2.fifties2.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $50 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputTwenties2" class="col-sm-6 control-label">Twenties:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid20 valid-number class="form-control" name="twenties2" id="inputTwenties2" ng-model="twenties2" />
+							</div>
+							<div ng-show="user2.twenties2.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $20 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputTens2" class="col-sm-6 control-label">Tens:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid10 valid-number class="form-control" name="tens2" id="inputTens2" ng-model="tens2" />
+							</div>
+							<div ng-show="user2.tens2.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $10 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputFives2" class="col-sm-6 control-label">Fives:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid5 valid-number class="form-control" name="fives2" id="inputFives2" ng-model="fives2" />
+							</div>
+							<div ng-show="user2.fives2.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $5 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputOnes2" class="col-sm-6 control-label">Ones:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid1 valid-number class="form-control" name="ones2" id="inputOnes2" ng-model="ones2" />
+							</div>
+							<div ng-show="user2.ones2.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $1 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputDollars2" class="col-sm-6 control-label">Silver Dollars:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid1 valid-number class="form-control" name="dollars2" id="inputDollars2" ng-model="dollars2" />
+							</div>
+							<div ng-show="user2.dollars2.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $1 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputHalves2" class="col-sm-6 control-label">Half Dollars:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid050 valid-number class="form-control" name="halves2" id="inputHalves2" ng-model="halves2" />
+							</div>
+							<div ng-show="user2.halves2.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $0.50 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputQuarters2" class="col-sm-6 control-label">Quarters:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid025 valid-number class="form-control" name="quarters2" id="inputQuarters2" ng-model="quarters2" />
+							</div>
+							<div ng-show="user2.quarterss2.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $0.25 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputDimes2" class="col-sm-6 control-label">Dimes:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid010 valid-number class="form-control" name="dimes2" id="inputDimes2" ng-model="dimes2" />
+							</div>
+							<div ng-show="user2.dimes2.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $0.10 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputNickels2" class="col-sm-6 control-label">Nickels:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid005 valid-number class="form-control" name="nickels2" id="inputNickels2" ng-model="nickels2" />
+							</div>
+							<div ng-show="user2.nickels2.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $0.05 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputPennies2" class="col-sm-6 control-label">Pennies:</label>
+							<div class="col-sm-3 input-group">
+								<div class="input-group-addon">$</div>
+								<input select-on-click valid001 valid-number class="form-control" name="pennies2" id="inputPennies2" ng-model="pennies2" />
+							</div>
+							<div ng-show="user2.pennies2.$invalid" class="col-sm-6 col-sm-offset-3 error">Must be $0.01 increments.</div>
+						</div>
+
+						<div class="form-group">
+							<label for="outputTotal2" class="col-sm-6 control-label">Total:</label>
+							<div class="col-sm-4 input-group">
+								<div class="input-group-addon">$</div>
+								<input class="form-control" disabled="disabled" id="outputTotal2" value="{{total2()}}" /><br />
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

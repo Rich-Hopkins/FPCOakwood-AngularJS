@@ -1,0 +1,59 @@
+﻿<div class="row">
+	<div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12 ">
+		<div class="col-md-8 col-md-offset-2 col-sm-12">
+			<uib-accordion close-others="true">
+
+				<h2>What do we have to offer?</h2>
+
+				<div uib-accordion-group class="panel-default" heading="Ladies' Ministry" is-open="true">
+					<p>Welcome to the Ladies’ Ministry of First Pentecostal Church!  We are made up of women just like you who understand the unique needs and roles of women.  Whether you are single, a wife, or a mother, we are all about encouraging and supporting each other to be all that God has purposed us to be.</p>
+					<p>The Women's Ministry exists to:</p>
+					<ul>
+						<li>Provide a place for women to grow in their understanding of God's Word and how to apply it to their lives</li>
+						<li>Challenge women to know God intimately and form meaningful relationships with each other</li>
+						<li>Offer opportunities for women to develop their gifts and abilities</li>
+						<li>Disciple women to live victorious lives</li>
+						<li>Allow women to serve others through dinners, events, and church functions</li>
+					</ul>
+					<p>The women of FPC enjoy spending time together whether going on special shopping trips or simply enjoying a meal together and conversation.  Our annual Women's Conference is the highlight for many ladies where we join with over 1,000 women from all across Georgia.  This is always a special time of strength and renewal as well as laughter and late night fun. </p>
+				</div>
+
+				<div uib-accordion-group class="panel-default" heading="Men's Ministry">
+					<p>FPC doesn’t have a good Men’s Ministry; we have great Men in Ministry! Instead of focusing on what FPC can do to serve men, we focus on what men can do to serve. We have men who are willing to take action and live their lives boldly for Christ. We have men who serve in and lead amazing ministries at FPC, are accountable and loyal husbands, and involved and great fathers.</p>
+					<p>Our men’s group has a great line up of men’s breakfast, prayer meetings, and camping trips.</p>
+					<p>Are you ready for an adventure? Are you ready to take action? Are you ready to live your life boldly for Christ? Find out how you can join with the great men of FPC.</p>
+				</div>
+
+				<div uib-accordion-group class="panel-default" heading="Music Ministry">
+					<p>Worship is the expression of reverence to God. We believe what the Bible says about worship in Psalm 81:2. "Begin the music, strike the tambourine, play the melodious harp and lyre" (NIV). Today, the harps have been replaced with guitars and keyboards, and the tambourines with drums, but the heart of it all is God.</p>
+					<p>Worship is a vital ingredient in all of our services. It is the pathway to the presence of God. Our praise singers and leaders dedicate themselves to leading the congregation into worship.</p>
+				</div>
+
+				<div uib-accordion-group class="panel-default" heading="Sunday School">
+					<p>Our Sunday School department is active in teaching us God's Word and how to apply it to our lives, no matter what level we find ourselves at. We have the Firm Foundation class to teach adults new to the church, and there are classes for kids of all ages, including a nursery, as well as the adult class which is led by our pastor.</p>
+				</div>
+
+				<div uib-accordion-group class="panel-default" heading="Youth Ministry">
+					<p>FPC Youth Department is all about connecting youth into a real and lasting relationship with God and each other.</p>
+					<p>Our goal is for each young person to form a healthy, growing relationship with God which is the most important "connection" in life. FPC challenges youth to grow in their relationship with God through discipleship, personal time with God, worship, Bible study, interaction with others, clear messages from God’s Word, and ministry. </p>
+					<p>Another FPC goal is for each student to form healthy relationships with their families and other young people. Life shared with others is an important part of the spiritual journey. FPC challenges youth to be connected to other youth by having fun together while supporting and encouraging each other. We strive to create an atmosphere where youth can be real and build satisfying relationships.</p>
+				</div>
+			</uib-accordion>
+		</div>
+	</div>
+</div>
+
+<script type="text/ng-template" id="group-template.html">
+	<div class="panel-heading">
+		<h4 class="panel-title" style="color:#fa39c3">
+			<a href tabindex="0" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading">
+				<span uib-accordion-header ng-class="{'text-muted': isDisabled}">
+					{{heading}}
+				</span>
+			</a>
+		</h4>
+	</div>
+	<div class="panel-collapse collapse" uib-collapse="!isOpen">
+		<div class="panel-body" style="text-align: right" ng-transclude></div>
+	</div>
+</script>

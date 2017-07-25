@@ -1,0 +1,103 @@
+﻿<div class="row">
+	<div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12">
+		<div class="col-md-10 col-md-offset-1 col-sm-12">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1 col-sm-12">
+					<div ng-include src="'/../views/fireworksmenu/menu.html'"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-sm-12 transparentWhite">
+					<p>Use this page to fill out the Daily Call-in form in the front of the black binder. Fill in the top three numbers, and the rest will be calculated for you.</p>
+					<h3>Location Number: FGA3627</h3>
+					<h3>Account Number: 1900077</h3>
+					<h3>Location Name: Walmart Oakwood</h3>
+					<h3>Account Name: First Pentecostal Church - Oakwood</h3>
+
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label for="inputCash" class="col-sm-6 control-label">Cash in Drawer:</label>
+							<div class="col-sm-3 input-group">
+								<span class="input-group-addon">$</span>
+								<input select-on-click valid-number class="form-control nospinner" id="inputCash" ng-model="cash" /><br />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputBank" class="col-sm-6 control-label">Starting Bank:</label>
+							<div class="col-sm-3 input-group">
+								<span class="input-group-addon">$</span>
+								<input select-on-click valid-number class="form-control nospinner" id="inputBank" ng-model="bank" /><br />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="inputCredit" class="col-sm-6 control-label">Credit Receipts:</label>
+							<div class="col-sm-3 input-group">
+								<span class="input-group-addon">$</span>
+								<input select-on-click valid-number class="form-control nospinner" id="inputCredit" ng-model="credit" /><br />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="outputRevenue" class="col-sm-6 control-label">Total Sales for Today:</label>
+							<div class="col-sm-3 input-group">
+								<span class="input-group-addon">$</span>
+								<input class="form-control" disabled="disabled" id="outputRevenue" value="{{revenue()}}" /><br />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="outputTax" class="col-sm-6 control-label">Total Tax:</label>
+							<div class="col-sm-3 input-group">
+								<span class="input-group-addon">$</span>
+								<input class="form-control" disabled="disabled" id="outputTax" value="{{tax()}}" /><br />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="outputNet" class="col-sm-6 control-label">Net Sales:</label>
+							<div class="col-sm-3 input-group">
+								<span class="input-group-addon">$</span>
+								<input class="form-control" disabled="disabled" id="outputNet" value="{{netSales()}}" /><br />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="outputCredit" class="col-sm-6 control-label">Today's CREDIT Collection:</label>
+							<div class="col-sm-3 input-group">
+								<span class="input-group-addon">$</span>
+								<input class="form-control" disabled="disabled" id="outputCredit" value="{{credit | number: 2}}" /><br />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="outputCash" class="col-sm-6 control-label">Today's CASH Collection:</label>
+							<div class="col-sm-3 input-group">
+								<span class="input-group-addon">$</span>
+								<input class="form-control" disabled="disabled" id="outputCash" value="{{cash-bank | number: 2}}" /><br />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="outputNetCost" class="col-sm-6 control-label">Net Sales (Our Cost):</label>
+							<div class="col-sm-3 input-group">
+								<span class="input-group-addon">$</span>
+								<input class="form-control" disabled="disabled" id="outputNetCost" value="{{netCost()}}" /><br />
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="outputProfit" class="col-sm-6 control-label">Approximate Profits:</label>
+							<div class="col-sm-3 input-group">
+								<span class="input-group-addon">$</span>
+								<input class="form-control" disabled="disabled" id="outputProfit" value="{{profit()}}" /><br />
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
