@@ -1,25 +1,28 @@
 ﻿<div class="row">
 	<div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12">
-		<h2>Calendar</h2>
+
+			<h2>Events</h2>
+			<div id="{{event.Id}}" class="col-md-10 col-md-offset-1 col-sm-12 bodyContainer transparentWhite" ng-repeat="event in events.eventsList|orderBy:'ExpDateTime'">
+
+				<div ng-include="" src="event.PageUrl"></div>
+			</div>
+		
 		<div class="row">
+			<h2>Calendar</h2>
 			<div class="embed-responsive embed-responsive-16by9">
-				<iframe class="embed-responsive-item" src="http://bit.ly/1JoTRGZ"></iframe>
+				<iframe id="ifr" class="embed-responsive-item" src="http://bit.ly/1JoTRGZ"></iframe>
 			</div>
 			<p class="topMargin">
 				If you have difficulty seeing this calendar on your device, try this link:
 				<a href="https://outlook.live.com/owa//calendar/8836cbcf-7ce6-4384-b15d-2d74001605a3/cadcb2f1-ef0c-438a-923b-680bfac1b27e/cid-389A4C8DF0AA1509/index.html" target="_blank">FPC Calendar</a>
 			</p>
 		</div>
-		<h2>Events</h2>
-		<div class="row">
-			<div class="col-md-12 col-sm-12 bodyContainer transparentWhite">
-				<div ng-include src="'/views/events/vbs.html'"></div>
-			</div>
-		</div>
+
 	</div>
 </div>
 
-	<!--<h2>Coming Soon!</h2>-->
+<div class="verticalSpacer"></div>
+<!--<h2>Coming Soon!</h2>-->
 	<!--Auction-->
 	<!--<div class="topMargin Nov13">
 		<h1 id="auction">Annual Christmas Auction!</h1>
@@ -90,21 +93,13 @@
 		<img src="images/CommunityPrayerService.jpg"/>
 	</div>-->
 	<!--<div class="col-md-10 col-md-offset-1 col-xs-12 bodyContainer opaque-dark white-text topMargin july5" id="fireworks-bg">
-		<div class="transparentDark">
-			<h1 id="Fireworks">Fireworks Sale Going on Now!!</h1>
-			<p>
-				<span class="lead topMargin">June 23<span class="super">rd</span> through July 4<span class="super">th</span></span> is our fireworks sale. We are running the stand in Oakwood in the Walmart parking lot (this year we are <strong>NOT</strong> doing the store in Flowery Branch). Come on down and do your fireworks shopping, and support First Pentecostal Church of Oakwood!
-			</p>
-			<p>
-				We have the <span class="lead bold">BIG STUFF!</span> Mortars, bottle rockets, firecrackers, Roman candles, and more! Visit <a class="link link-light-blue" href="http://www.tntfireworks.com" target="_blank">www.tntfireworks.com</a> to get a $20 coupon good on a $100 purchase <span class="bold">(get the coupon for stands and tents)</span> and come on in to start the year with a <span class="lead bold">BOOM!</span>
-			</p>
-			<div class="transparentWhite padding12">
-				<p>
-					<a class="link" id="fireworksLinkO" href="http://binged.it/22phogH" target="_blank"><span class="glyphicon glyphicon-map-marker"></span> Oakwood - Map it!</a>
-				</p>
-			</div>
-		</div>
+		
 	</div>-->
 	<!--<p>
 		<a class="link" id="fireworksLinkFB" href="http://binged.it/1TuxU9V" target="_blank"><span class="glyphicon glyphicon-map-marker"></span> Flowery Branch - Map it!</a>
 	</p>-->
+<script type="text/javascript">
+	$('#ifr').hide().on('load', function(){
+		$(this).show();
+	});
+</script>

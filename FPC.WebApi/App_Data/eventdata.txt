@@ -1,2 +1,2 @@
-﻿vbs*VBS*VBS Description for front page, short paragraph, from the text file.*../../assets/images/vbs_thumb.png*vbs.html*2017-08-16
-fireworks*Fireworks!*It's time for fireworks again! (Front page)*fireworks.html*../../assets/images/fireworks-explosion-thumb.jpg*2017-07-24
+﻿Vacation Bible School!*VBS Description for front page, short paragraph, from the text file.*vbs.html*vbs_thumb.jpg*2017-08-16
+Fireworks!*It's time for fireworks again! (Front page)*fireworks.html*fireworks-explosion-thumb.jpg*2017-07-04

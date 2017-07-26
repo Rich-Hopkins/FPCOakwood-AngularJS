@@ -99,7 +99,7 @@
     <Content Include="assets\images\Stewarts-wide-small.png" />
     <Content Include="assets\images\Stewarts-wide.png" />
     <Content Include="assets\images\vbs_large.jpg" />
-    <Content Include="assets\images\vbs_thumb.png" />
+    <Content Include="assets\images\vbs_thumb.jpg" />
     <Content Include="css\app.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="favicon.png" />
@@ -112,11 +112,13 @@
     <Content Include="scripts\directives\ValidateInputValues.js" />
     <Content Include="scripts\directives\ValidateNumber.js" />
     <Content Include="scripts\services\EmailService.js" />
+    <Content Include="scripts\services\EventsService.js" />
     <Content Include="scripts\ui-bootstrap-tpls-2.5.0.min.js" />
     <Content Include="views\about\about.html" />
     <Content Include="views\about\AboutController.js" />
     <Content Include="views\events\events.html" />
     <Content Include="views\events\EventsController.js" />
+    <Content Include="views\events\fireworks.html" />
     <Content Include="views\events\vbs.html" />
     <Content Include="views\fireworkscalculator\calculator.html" />
     <Content Include="views\fireworkscalculator\FireworksCalculatorController.js" />
@@ -150,12 +152,12 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="assets\images\4805.psd.exclude" />
-    <Content Include="assets\images\building-opengraph-large.psd" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Properties\PublishProfiles\fpcdev - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\fpcoakwood - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -51,6 +51,20 @@
 	</div>
 </div>
 
+<div class="row">
+	<div class="transparentWhite topMargin col-md-8 col-md-offset-2 col-xs-12">
+		<div class="col-md-10 col-md-offset-1 col-xs-12">
+			<div class="row transparentWhite topMargin" ng-repeat="event in home.eventsList|orderBy:'ExpDateTime'">
+				<a href="/events#{{event.Id}}">
+					<img class="thumbnail" src="../../assets/images/{{event.ThumbUrl}}" />
+					<h3>{{event.Title}}</h3>
+				</a>
+				<p>{{event.Description}}</p>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="verticalSpacer"></div>
 
 <div class="row" id="stewartsPicDiv">
@@ -62,7 +76,7 @@
 		<img class="img-center"
 				 id="stewartsImg"
 				 src="../../assets/images/Stewarts-wide.png" ,
-		     srcset="../../assets/images/Stewarts-wide-small.png 900w,
+				 srcset="../../assets/images/Stewarts-wide-small.png 900w,
 						../../assets/images/Stewarts-wide.png 2000w"
 				 sizes="100vw"
 				 alt="Pastor and Mrs. Stewart" />

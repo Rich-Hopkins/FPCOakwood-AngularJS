@@ -3,12 +3,13 @@
 
 	angular
 		.module('app')
-		.controller('Home', Home);
+		.controller('Home', ['eventsService', Home]);
 
-	function Home() {
+	function Home(eventsService) {
 		var vm = this;
+
+		vm.eventsList = eventsService.getAllEvents();
+
 		return vm;
 	}
-
-
 }());

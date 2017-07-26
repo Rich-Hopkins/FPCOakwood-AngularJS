@@ -83,6 +83,10 @@ iframe {
 	color: red;
 }
 
+.super {
+	vertical-align: super;
+}
+
 .error {
 	background-color: lightgray;
 	color: #b94a48;
@@ -118,9 +122,10 @@ input.has-error, textarea.has-error {
 .transparentDark {
 	border: 1px solid black;
 	border-radius: 10px;
-	background-color: rgba(0, 0, 0, .7);
+	background-color: rgba(0, 0, 0, .6);
 	font-size: 1.6rem;
 	padding: 18px;
+	color: #cccccc;
 }
 
 .opaque-dark {
@@ -137,10 +142,10 @@ input.has-error, textarea.has-error {
 }
 
 .thumbnail {
-	max-width: 180px;
-	max-height: 200px;
+	max-width: 15rem;
+	max-height: 15rem;
 	float: left;
-	margin-right: 12px;
+	margin-right: 2rem;
 }
 
 .squareBullets li {
