@@ -94,6 +94,10 @@
     <Content Include="assets\images\fireworks-explosion-thumb.jpg" />
     <Content Include="assets\images\FPCLogo-large.png" />
     <Content Include="assets\images\FPCLogo-small.png" />
+    <Content Include="assets\images\nations-dinner-large-1200w.jpg" />
+    <Content Include="assets\images\nations-dinner-large-2000w.jpg" />
+    <Content Include="assets\images\nations-dinner-thumb-250w.jpg" />
+    <Content Include="assets\images\nations-dinner-thumb-800w.jpg" />
     <Content Include="assets\images\Stewarts-square-large.png" />
     <Content Include="assets\images\Stewarts-square-small.png" />
     <Content Include="assets\images\Stewarts-wide-small.png" />
@@ -119,6 +123,7 @@
     <Content Include="views\events\events.html" />
     <Content Include="views\events\EventsController.js" />
     <Content Include="views\events\fireworks.html" />
+    <Content Include="views\events\nations-dinner.html" />
     <Content Include="views\events\vbs.html" />
     <Content Include="views\fireworkscalculator\calculator.html" />
     <Content Include="views\fireworkscalculator\FireworksCalculatorController.js" />

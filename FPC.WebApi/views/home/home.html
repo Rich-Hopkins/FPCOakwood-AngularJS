@@ -32,31 +32,19 @@
 
 		<div class="verticalSpacer"></div>
 
-		<!--<div class="row block sideMargins  july5">
-			<a class="link" href="/events#Fireworks">
-				<img src="assets/images/fireworks-explosion-thumb.jpg" class="thumbnail" />
-			</a>
-			<a class="link" href="events#Fireworks">
-				<h2>Fireworks Sale</h2>
-			</a>
-			<p>It's that time of year again. We're selling fireworks once again! And yes, we do have the big stuff! Click <a class="link" href="events#Fireworks">here</a> for more info!</p>
-		</div>-->
-
-		<div class="verticalSpacer"></div>
-
 		<div class="row block sideMargins">
 			<a href="https://www.facebook.com/fpcoakwood/" target="blank"><img src="assets/images/facebook.png" /></a>
 			Be sure to like our <a class="link" href="https://www.facebook.com/fpcoakwood/" target="blank">Facebook</a> page!
 		</div>
 	</div>
 </div>
-
-<div class="row">
-	<div class="transparentWhite topMargin col-md-8 col-md-offset-2 col-xs-12">
+<div class="row">	
+	<div class="transparentWhite topMargin col-md-8 col-md-offset-2 col-xs-12">	
+		<h3>Upcoming Events</h3>
 		<div class="col-md-10 col-md-offset-1 col-xs-12">
-			<div class="row transparentWhite topMargin" ng-repeat="event in home.eventsList|orderBy:'ExpDateTime'">
+			<div class="row transparentWhite topMargin" ng-repeat="event in home.eventsList|orderBy:'StartDate'">
 				<a href="/events#{{event.Id}}">
-					<img class="thumbnail" src="../../assets/images/{{event.ThumbUrl}}" />
+					<img class="thumbnail" src="../../assets/images/{{event.ThumbUrl}}" alt="{{event.Title}}"/>
 					<h3>{{event.Title}}</h3>
 				</a>
 				<p>{{event.Description}}</p>

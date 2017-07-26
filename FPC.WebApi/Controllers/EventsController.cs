@@ -20,10 +20,10 @@ namespace FPC.WebApi.Controllers
 			foreach (var line in File.ReadLines(root_path + "App_Data/eventdata.txt"))
 			{
 				var attributes = line.Split('*');
-				events.Add(new Event(){Id = "event" + id, Title = attributes[0], Description = attributes[1], PageUrl = "/views/events/" + attributes[2], ThumbUrl =  attributes[3], ExpDateTime = DateTime.Parse(attributes[4])});
+				events.Add(new Event(){Id = "event" + id, Title = attributes[0], Description = attributes[1], PageUrl = "/views/events/" + attributes[2], ThumbUrl =  attributes[3], StartDate = DateTime.Parse(attributes[4]), EndDate = DateTime.Parse(attributes[5])});
 				id++;
 			}
-			return events.Where(e => e.ExpDateTime > DateTime.Today.AddDays(-1));
+			return events.Where(e => e.EndDate > DateTime.Today.AddDays(-1) && e.StartDate <= DateTime.Today.AddDays(22));
 		}
 	}
 }

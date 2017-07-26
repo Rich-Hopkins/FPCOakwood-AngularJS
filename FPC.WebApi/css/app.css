@@ -148,6 +148,12 @@ input.has-error, textarea.has-error {
 	margin-right: 2rem;
 }
 
+	a img:hover {
+		-moz-box-shadow: 0 0 10px #BAE779;
+		-webkit-box-shadow: 0 0 10px #BAE779;
+		box-shadow: 0 0 10px #BAE779;
+	}
+
 .squareBullets li {
 	list-style: square;
 	margin-top: 12px;

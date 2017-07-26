@@ -3,9 +3,7 @@
 
 	angular
 		.module('app')
-		.controller('Events',['eventsService', Events])
-		.controller('Vbs', Vbs)
-		.controller('Fireworks', Fireworks);
+		.controller('Events', ['eventsService', Events]);
 
 	function Events(eventsService) {
 		var vm = this;
@@ -14,15 +12,5 @@
 
 		return vm;
 	}
-
-	function Vbs() {
-		var vm = this;
-		return vm;
-	}
-
-	function Fireworks() {
-		var vm = this;
-		return vm;
-	}
-
+	
 })();

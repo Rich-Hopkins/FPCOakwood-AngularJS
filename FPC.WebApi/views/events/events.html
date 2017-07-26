@@ -2,7 +2,7 @@
 	<div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12">
 
 			<h2>Events</h2>
-			<div id="{{event.Id}}" class="col-md-10 col-md-offset-1 col-sm-12 bodyContainer transparentWhite" ng-repeat="event in events.eventsList|orderBy:'ExpDateTime'">
+			<div id="{{event.Id}}" class="col-md-10 col-md-offset-1 col-sm-12 bodyContainer transparentWhite" ng-repeat="event in events.eventsList|orderBy:'StartDate'">
 
 				<div ng-include="" src="event.PageUrl"></div>
 			</div>
