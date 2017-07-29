@@ -113,4 +113,5 @@ FPC.WEBAPI│
     │
     └───offerings
             offerings.html
-            OfferingsController.js ```
+            OfferingsController.js 
+```
