@@ -32,6 +32,7 @@ This repo was created to showcase the code used to create the FPCOakwood.org web
 * Built in Visual Studio 2017
 
 ### Folder Structure ###  
+(Some auto-generated and third-party files omitted from this list) 
 ``` 
 FPC.WEBAPI│
 ├───App_Data
@@ -49,7 +50,6 @@ FPC.WEBAPI│
 │
 ├───css
 │       app.css
-│       bootstrap.css
 │
 ├───fonts
 │
@@ -58,9 +58,7 @@ FPC.WEBAPI│
 │       Event.cs
 │
 ├───scripts
-│   │   angular.min.js
 │   │   app.js
-│   │   ui-bootstrap-tpls-2.5.0.min.js
 │   │
 │   ├───directives
 │   │       SelectOnClick.js
