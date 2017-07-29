@@ -34,7 +34,8 @@ This repo was created to showcase the code used to create the FPCOakwood.org web
 ### Folder Structure ###  
 (Some auto-generated and third-party files omitted from this list) 
 ``` 
-FPC.WEBAPI│
+FPC.WEBAPI
+│
 ├───App_Data
 │       eventdata.txt
 │
