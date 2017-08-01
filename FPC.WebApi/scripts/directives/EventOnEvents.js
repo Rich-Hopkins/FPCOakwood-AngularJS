@@ -3,10 +3,10 @@
 
 	angular
 		.module('app')
-		.directive('eventsItem',
+		.directive('eventOnEvents',
 		function () {
 			return {
-				templateUrl: '/views/events/event.html'
+				templateUrl: '/views/events/eventsEventTemplate.html'
 			};
 		});
 

@@ -112,8 +112,8 @@
     <Content Include="index.html" />
     <Content Include="scripts\angular.min.js" />
     <Content Include="scripts\app.js" />
-    <Content Include="scripts\directives\EventsItem.js" />
-    <Content Include="scripts\directives\HomeEvent.js" />
+    <Content Include="scripts\directives\EventOnEvents.js" />
+    <Content Include="scripts\directives\EventOnHome.js" />
     <Content Include="scripts\directives\SelectOnClick.js" />
     <Content Include="scripts\directives\ValidateInputValues.js" />
     <Content Include="scripts\directives\ValidateNumber.js" />
@@ -122,7 +122,7 @@
     <Content Include="scripts\ui-bootstrap-tpls-2.5.0.min.js" />
     <Content Include="views\about\about.html" />
     <Content Include="views\about\AboutController.js" />
-    <Content Include="views\events\event.html" />
+    <Content Include="views\events\eventsEventTemplate.html" />
     <Content Include="views\events\events.html" />
     <Content Include="views\events\EventsController.js" />
     <Content Include="views\events\fireworks.html" />
@@ -140,7 +140,7 @@
     <Content Include="views\fireworksschedule\ScheduleController.js" />
     <Content Include="views\home\home.html" />
     <Content Include="views\home\HomeController.js" />
-    <Content Include="views\home\homeEvent.html" />
+    <Content Include="views\home\homeEventTemplate.html" />
     <Content Include="views\mainmenu\mainmenu.html" />
     <Content Include="views\mainmenu\MainMenuController.js" />
     <Content Include="views\offerings\offerings.html" />
