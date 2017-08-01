@@ -35,6 +35,9 @@ This repo was created to showcase the code used to create the FPCOakwood.org web
 (Some auto-generated and third-party files omitted from this list) 
 ``` 
 FPC.WEBAPI
+│   favicon.png
+│   index.html
+│   Web.config
 │
 ├───App_Data
 │       eventdata.txt
@@ -51,6 +54,7 @@ FPC.WEBAPI
 │
 ├───css
 │       app.css
+│       bootstrap.css
 │
 ├───fonts
 │
@@ -59,9 +63,13 @@ FPC.WEBAPI
 │       Event.cs
 │
 ├───scripts
+│   │   angular.min.js
 │   │   app.js
+│   │   ui-bootstrap-tpls-2.5.0.min.js
 │   │
 │   ├───directives
+│   │       EventOnEvents.js
+│   │       EventOnHome.js
 │   │       SelectOnClick.js
 │   │       ValidateInputValues.js
 │   │       ValidateNumber.js
@@ -78,6 +86,7 @@ FPC.WEBAPI
     ├───events
     │       events.html
     │       EventsController.js
+    │       eventsEventTemplate.html
     │       fireworks.html
     │       nations-dinner.html
     │       vbs.html
@@ -105,6 +114,7 @@ FPC.WEBAPI
     ├───home
     │       home.html
     │       HomeController.js
+    │       homeEventTemplate.html
     │
     ├───mainmenu
     │       mainmenu.html
@@ -114,3 +124,4 @@ FPC.WEBAPI
             offerings.html
             OfferingsController.js 
 ```
+©2017 Rich Hopkins | All Rights Reserved
