@@ -112,6 +112,7 @@
     <Content Include="index.html" />
     <Content Include="scripts\angular.min.js" />
     <Content Include="scripts\app.js" />
+    <Content Include="scripts\directives\EventsItem.js" />
     <Content Include="scripts\directives\SelectOnClick.js" />
     <Content Include="scripts\directives\ValidateInputValues.js" />
     <Content Include="scripts\directives\ValidateNumber.js" />
@@ -120,6 +121,7 @@
     <Content Include="scripts\ui-bootstrap-tpls-2.5.0.min.js" />
     <Content Include="views\about\about.html" />
     <Content Include="views\about\AboutController.js" />
+    <Content Include="views\events\event.html" />
     <Content Include="views\events\events.html" />
     <Content Include="views\events\EventsController.js" />
     <Content Include="views\events\fireworks.html" />

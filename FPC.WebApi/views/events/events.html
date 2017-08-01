@@ -2,10 +2,10 @@
 	<div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12">
 		<h2>Events</h2>
 
-			<div id="{{event.Id}}" class="col-md-10 col-md-offset-1 col-sm-12 bodyContainer transparentWhite" ng-repeat="event in events.eventsList|orderBy:'StartDate'">
-				<div ng-include="" src="event.PageUrl"></div>
-			</div>
-		
+		<div ng-repeat="event in events.eventsList | orderBy: 'StartDate'">
+			<events-item></events-item>
+		</div>
+
 		<div class="row">
 			<h2>Calendar</h2>
 			<div class="embed-responsive embed-responsive-16by9">
@@ -21,7 +21,7 @@
 </div>
 
 <script type="text/javascript">
-	$('#ifr').hide().on('load', function(){
+	$('#ifr').hide().on('load', function () {
 		$(this).show();
 	});
 </script>
