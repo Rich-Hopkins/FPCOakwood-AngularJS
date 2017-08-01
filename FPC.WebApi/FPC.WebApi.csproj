@@ -113,6 +113,7 @@
     <Content Include="scripts\angular.min.js" />
     <Content Include="scripts\app.js" />
     <Content Include="scripts\directives\EventsItem.js" />
+    <Content Include="scripts\directives\HomeEvent.js" />
     <Content Include="scripts\directives\SelectOnClick.js" />
     <Content Include="scripts\directives\ValidateInputValues.js" />
     <Content Include="scripts\directives\ValidateNumber.js" />
@@ -139,6 +140,7 @@
     <Content Include="views\fireworksschedule\ScheduleController.js" />
     <Content Include="views\home\home.html" />
     <Content Include="views\home\HomeController.js" />
+    <Content Include="views\home\homeEvent.html" />
     <Content Include="views\mainmenu\mainmenu.html" />
     <Content Include="views\mainmenu\MainMenuController.js" />
     <Content Include="views\offerings\offerings.html" />

@@ -42,13 +42,11 @@
 	<div class="transparentWhite topMargin col-md-8 col-md-offset-2 col-xs-12">	
 		<h3>Upcoming Events</h3>
 		<div class="col-md-10 col-md-offset-1 col-xs-12">
+			
 			<div class="row transparentWhite topMargin" ng-repeat="event in home.eventsList|orderBy:'StartDate'">
-				<a href="/events#{{event.Id}}">
-					<img class="thumbnail" src="../../assets/images/{{event.ThumbUrl}}" alt="{{event.Title}}"/>
-					<h3>{{event.Title}}</h3>
-				</a>
-				<p>{{event.Description}}</p>
+				<home-event></home-event>
 			</div>
+			
 		</div>
 	</div>
 </div>

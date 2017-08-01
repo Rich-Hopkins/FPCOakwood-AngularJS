@@ -9,7 +9,6 @@
 		var vm = this;
 
 		vm.eventsList = eventsService.getAllEvents();
-
 		return vm;
 	}
 }());

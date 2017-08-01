@@ -3,11 +3,11 @@
 
 	angular
 		.module('app')
-		.directive('eventsItem',
+		.directive('homeEvent',
 		function () {
 			return {
-				templateUrl: '/views/events/event.html'
+				templateUrl: '/views/home/homeEvent.html'
 			};
 		});
-
+	
 })();
