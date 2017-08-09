@@ -8,7 +8,13 @@
 	function Home(eventsService) {
 		var vm = this;
 
-		vm.eventsList = eventsService.getAllEvents();
+		eventsService.getAllEvents()
+			.then(function (data) {
+				vm.eventsList = data;
+			},
+			function (error) {
+				console.log(error);
+			});
 		return vm;
 	}
 }());

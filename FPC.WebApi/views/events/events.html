@@ -1,7 +1,6 @@
 ﻿<div class="row">
 	<div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12">
-		<h2>Events</h2>
-
+		<h2 ng-show="events.eventsList.length > 0">Events</h2>
 		<div ng-repeat="event in events.eventsList | orderBy: 'StartDate'">
 			<event-on-events></event-on-events>
 		</div>
@@ -12,7 +11,7 @@
 				<iframe id="ifr" class="embed-responsive-item" src="http://bit.ly/1JoTRGZ"></iframe>
 			</div>
 			<p class="topMargin">
-				If you have difficulty seeing this calendar on your device, try this link:
+				If you have difficulty seeing this calendar on your device, or it doesn't show any events, try this link:
 				<a href="https://outlook.live.com/owa//calendar/8836cbcf-7ce6-4384-b15d-2d74001605a3/cadcb2f1-ef0c-438a-923b-680bfac1b27e/cid-389A4C8DF0AA1509/index.html" target="_blank">FPC Calendar</a>
 			</p>
 		</div>

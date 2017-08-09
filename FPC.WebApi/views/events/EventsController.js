@@ -7,7 +7,13 @@
 
 	function Events(eventsService, $location, $anchorScroll, $timeout, id) {
 		var vm = this;
-		vm.eventsList = eventsService.getAllEvents();
+		eventsService.getAllEvents()
+			.then(function (data) {
+					vm.eventsList = data;
+				},
+				function (error) {
+					console.log(error);
+				});
 
 		$timeout(function() {
 			$anchorScroll($location.hash(id));
