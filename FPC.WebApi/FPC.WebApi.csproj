@@ -87,6 +87,10 @@
     <Content Include="assets\images\building-opengraph-small.jpg" />
     <Content Include="assets\images\building-small-landscape.jpg" />
     <Content Include="assets\images\building-small-portrait.jpg" />
+    <Content Include="assets\images\cornhole-1800w.jpg" />
+    <Content Include="assets\images\cornhole-500w.jpg" />
+    <Content Include="assets\images\cornhole-square-400w.jpg" />
+    <Content Include="assets\images\cornhole-square-thumb-250w.jpg" />
     <Content Include="assets\images\facebook.png" />
     <Content Include="assets\images\favicon.png" />
     <Content Include="assets\images\fireworks-explosion-large.jpg" />
@@ -122,6 +126,7 @@
     <Content Include="scripts\ui-bootstrap-tpls-2.5.0.min.js" />
     <Content Include="views\about\about.html" />
     <Content Include="views\about\AboutController.js" />
+    <Content Include="views\events\cornhole.html" />
     <Content Include="views\events\eventsEventTemplate.html" />
     <Content Include="views\events\events.html" />
     <Content Include="views\events\EventsController.js" />

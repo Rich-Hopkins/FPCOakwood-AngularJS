@@ -11,6 +11,7 @@
 		eventsService.getAllEvents()
 			.then(function (data) {
 				vm.eventsList = data;
+		console.log(vm.eventsList);
 			},
 			function (error) {
 				console.log(error);

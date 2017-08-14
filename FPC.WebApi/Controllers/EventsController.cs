@@ -6,6 +6,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web;
 using System.Web.Http;
+using System.Web.UI.WebControls;
 using FPC.WebApi.Models;
 
 namespace FPC.WebApi.Controllers
@@ -15,12 +16,22 @@ namespace FPC.WebApi.Controllers
 		public IEnumerable<Event> GetAllEvents()
 		{
 			List<Event> events = new List<Event>();
-			string root_path = HttpRuntime.AppDomainAppPath;
+			string path = HttpRuntime.AppDomainAppPath + "App_Data/eventdata.txt";
 			int id = 0;
-			foreach (var line in File.ReadLines(root_path + "App_Data/eventdata.txt"))
+			StreamReader file = new StreamReader(path);
+			string line;
+			while ((line = file.ReadLine()) != null)
 			{
-				var attributes = line.Split('*');
-				events.Add(new Event(){Id = "event" + id, Title = attributes[0], Description = attributes[1], PageUrl = "/views/events/" + attributes[2], ThumbUrl =  attributes[3], StartDate = DateTime.Parse(attributes[4]), EndDate = DateTime.Parse(attributes[5])});
+				events.Add(new Event()
+				{
+					Id = "event" + id,
+					Title = line,
+					Description = file.ReadLine(),
+					PageUrl = "/views/events/" + file.ReadLine(),
+					ThumbUrl = file.ReadLine(),
+					StartDate = DateTime.Parse(file.ReadLine()),
+					EndDate = DateTime.Parse(file.ReadLine())
+				});
 				id++;
 			}
 			return events.Where(e => e.EndDate > DateTime.Today.AddDays(-1) && e.StartDate <= DateTime.Today.AddDays(22));
