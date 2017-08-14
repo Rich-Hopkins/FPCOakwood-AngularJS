@@ -12,6 +12,7 @@ namespace FPC.WebApi.Models
 		public string Description { get; set; }
 		public string ThumbUrl { get; set; }
 		public string PageUrl { get; set; }
+		public DateTime DisplayDate { get; set; }
 		public DateTime StartDate { get; set; }
 		public DateTime EndDate { get; set; }
 	}
