@@ -108,6 +108,9 @@
     <Content Include="assets\images\Stewarts-wide.png" />
     <Content Include="assets\images\vbs_large.jpg" />
     <Content Include="assets\images\vbs_thumb.jpg" />
+    <Content Include="assets\images\wnop-250w.jpg" />
+    <Content Include="assets\images\wnop-400w.jpg" />
+    <Content Include="assets\images\wnop-700w.jpg" />
     <Content Include="css\app.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="favicon.png" />
@@ -133,6 +136,7 @@
     <Content Include="views\events\fireworks.html" />
     <Content Include="views\events\nations-dinner.html" />
     <Content Include="views\events\vbs.html" />
+    <Content Include="views\events\wnop.html" />
     <Content Include="views\fireworkscalculator\calculator.html" />
     <Content Include="views\fireworkscalculator\FireworksCalculatorController.js" />
     <Content Include="views\fireworksdrawercount\drawer.html" />

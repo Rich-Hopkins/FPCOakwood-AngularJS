@@ -18,22 +18,25 @@ namespace FPC.WebApi.Controllers
 			List<Event> events = new List<Event>();
 			string path = HttpRuntime.AppDomainAppPath + "App_Data/eventdata.txt";
 			int id = 0;
-			StreamReader file = new StreamReader(path);
 			string line;
-			while ((line = file.ReadLine()) != null)
+			using (StreamReader file = new StreamReader(path))
 			{
-				events.Add(new Event()
+				while ((line = file.ReadLine()) != null)
 				{
-					Id = "event" + id,
-					Title = line,
-					Description = file.ReadLine(),
-					PageUrl = "/views/events/" + file.ReadLine(),
-					ThumbUrl = file.ReadLine(),
-					StartDate = DateTime.Parse(file.ReadLine()),
-					EndDate = DateTime.Parse(file.ReadLine())
-				});
-				id++;
-			}
+					events.Add(new Event()
+					{
+						Id = "event" + id,
+						Title = line,
+						Description = file.ReadLine(),
+						PageUrl = "/views/events/" + file.ReadLine(),
+						ThumbUrl = file.ReadLine(),
+						StartDate = DateTime.Parse(file.ReadLine()),
+						EndDate = DateTime.Parse(file.ReadLine())
+					});
+					id++;
+				}
+			};
+
 			return events.Where(e => e.EndDate > DateTime.Today.AddDays(-1) && e.StartDate <= DateTime.Today.AddDays(22));
 		}
 	}
