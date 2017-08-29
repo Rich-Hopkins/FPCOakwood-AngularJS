@@ -1,3 +1,13 @@
 ﻿<div id="{{event.Id}}" class="col-md-10 col-md-offset-1 col-sm-12 bodyContainer transparentWhite">
-	<div ng-include="" src="event.PageUrl"></div>
+	<h3>{{event.Title}}</h3>
+  <p class="topMargin">{{event.LongDesc}}</p>
+  <img class="img-center"
+       src="../../assets/images/event-images/{{event.ImageName}}-250w.jpg"
+       srcset="../../assets/images/event-images/{{event.ImageName}}-400w.jpg 400w,
+       ../../assets/images/event-images/{{event.ImageName}}-500w.jpg 500w,
+       ../../assets/images/event-images/{{event.ImageName}}-1000w.jpg 1000w,
+			 ../../assets/images/event-images/{{event.ImageName}}-1500w.jpg 1800w"
+       sizes="100vw"
+       alt="{{event.Title}}" />
+  <div ng-include="" src="event.TemplateUrl"></div>
 </div>

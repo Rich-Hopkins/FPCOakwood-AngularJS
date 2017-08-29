@@ -9,11 +9,12 @@ namespace FPC.WebApi.Models
 	{
 		public string Id { get; set; }
 		public string Title { get; set; }
-		public string Description { get; set; }
-		public string ThumbUrl { get; set; }
-		public string PageUrl { get; set; }
+		public string ShortDesc { get; set; }
+    public string LongDesc { get; set; }
+    public string ImageName { get; set; }
+    public string TemplateUrl { get; set; }
 		public DateTime DisplayDate { get; set; }
-		public DateTime StartDate { get; set; }
+    public DateTime StartDate { get; set; }
 		public DateTime EndDate { get; set; }
 	}
 }
