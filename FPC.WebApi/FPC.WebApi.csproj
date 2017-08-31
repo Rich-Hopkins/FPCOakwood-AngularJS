@@ -107,6 +107,11 @@
     <Content Include="assets\images\favicon.png" />
     <Content Include="assets\images\FPCLogo-large.png" />
     <Content Include="assets\images\FPCLogo-small.png" />
+    <Content Include="assets\images\event-images\grandparents-1000w.jpg" />
+    <Content Include="assets\images\event-images\grandparents-1500w.jpg" />
+    <Content Include="assets\images\event-images\grandparents-250w.jpg" />
+    <Content Include="assets\images\event-images\grandparents-400w.jpg" />
+    <Content Include="assets\images\event-images\grandparents-500w.jpg" />
     <Content Include="assets\images\Stewarts-square-large.png" />
     <Content Include="assets\images\Stewarts-square-small.png" />
     <Content Include="assets\images\Stewarts-wide-small.png" />
