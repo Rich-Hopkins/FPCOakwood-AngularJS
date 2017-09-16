@@ -30,7 +30,13 @@
 				controller: 'Events',
 				controllerAs: 'events',
 				templateUrl: 'views/events/events.html'
-			})
+      })
+      .when('/donate',
+		    {
+          controller: 'Donate',
+          controllerAs: 'donate',
+          templateUrl: 'views/donate/donate.html'
+		    })
 			.when('/fireworks1',
 			{
 				controller: 'Schedule',
