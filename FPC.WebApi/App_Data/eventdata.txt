@@ -6,46 +6,6 @@
 *Display Date
 *Start Date
 *End Date
-Cornhole!
-September 3 - Kingdom Youth Ministries is putting on a Cornhole tournament! Click for more info.
-Kingdom Youth Ministries is bringing us a Cornhole tournament! September 3, after service, join us for this fun tourney! Cost is $10 per team, and hot dogs and hamburgers will be available for additional purchase.
-cornhole
-
-2017-08-14
-2017-09-03
-2017-09-03
-Blazing Harvest
-October 12-14 - World Network of Prayer is bringing a prayer summit to the Georgia District. Click for more info.
-Georgia District WNOP Summons - Details below
-wnop
-../../views/events/wnop.html
-2017-09-07
-2017-10-12
-2017-10-14
-Youth Car Wash
-September 16 - Kingdom Youth will be washing cars to raise money for Sheaves for Christ. Click for more info.
-Kingdom Youth will be washing cars on September 16, starting at 9:00 AM. They will be located at the Shell station on the corner of McEver and Flat Creek Roads in Oakwood. Food and fellowship will follow, for all participants.
-carwash
-
-2017-09-01
-2017-09-16
-2017-09-16
-Grandparents Day
-September 10 - Join us for a dinner to celebrate grandparents. Click for more info.
-Join us for a spaghetti dinner after church on Sunday, September 10th, as we gather together to celebrate grandparents. Dinner is $5 per person, and all guests are free.
-grandparents
-
-2017-08-30
-2017-09-10
-2017-09-10
-Fall Fellowship
-October 15 - Join us for fellowship and fun!
-Join us on October 15th for fall fellowship at the church. The fun starts at 4:00 pm.
-fall-fellowship
-
-2017-10-01
-2017-10-15
-2017-10-15
 Fall Festival
 November 5 - Come join us for our annual fall festival! Click for more info!
 Come join us for our annual fall festival! Food, fellowship, and fun! Hayrides, candy, cake walk, and games for all! We ask that each family of church members brings two bags of candy for the kids.
