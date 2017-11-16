@@ -168,7 +168,7 @@ a img:hover {
 }
 
 .bold {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .sideMargins {
@@ -188,6 +188,27 @@ a img:hover {
 .bodyContainer {
 	margin-bottom: 100px;
 	padding: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(2rem, 5rem) minmax(15rem, 20rem) minmax(15rem, 30rem);
+}
+
+.grid span {
+  margin-bottom: 1rem;
+}
+
+.grid h4 {
+  grid-column: 1/-1;
+}
+
+.grid2 {
+  grid-column-start: 2;
+}
+
+.grid3 {
+  grid-column-start: 3;
 }
 
 .div-center {
