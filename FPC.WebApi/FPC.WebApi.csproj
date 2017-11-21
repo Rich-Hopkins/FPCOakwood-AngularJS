@@ -99,6 +99,14 @@
     <Content Include="assets\images\building-opengraph-small.jpg" />
     <Content Include="assets\images\building-small-landscape.jpg" />
     <Content Include="assets\images\building-small-portrait.jpg" />
+    <Content Include="assets\images\event-images\5b-1000w.jpg" />
+    <Content Include="assets\images\event-images\5b-1500w.jpg" />
+    <Content Include="assets\images\event-images\5b-500w.jpg" />
+    <Content Include="assets\images\event-images\5below-1000w.jpg" />
+    <Content Include="assets\images\event-images\5below-1500w.jpg" />
+    <Content Include="assets\images\event-images\5below-250w.jpg" />
+    <Content Include="assets\images\event-images\5below-400w.jpg" />
+    <Content Include="assets\images\event-images\5below-500w.jpg" />
     <Content Include="assets\images\event-images\t-feast-1000w.jpg" />
     <Content Include="assets\images\event-images\t-feast-1500w.jpg" />
     <Content Include="assets\images\event-images\t-feast-250w.jpg" />
@@ -139,7 +147,7 @@
     <Content Include="views\events\eventsEventTemplate.html" />
     <Content Include="views\events\events.html" />
     <Content Include="views\events\EventsController.js" />
-    <Content Include="views\events\wnop.html" />
+    <Content Include="views\events\5below.html" />
     <Content Include="views\fireworkscalculator\calculator.html" />
     <Content Include="views\fireworkscalculator\FireworksCalculatorController.js" />
     <Content Include="views\fireworksdrawercount\drawer.html" />
@@ -180,6 +188,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\favicons\manifest.json" />
+    <Content Include="assets\5below.pdf" />
     <None Include="Properties\PublishProfiles\fpcoakwood - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -2,7 +2,7 @@
 *Short Description
 *Long Description
 *Image Name(less width and extension - MUST USE JPG)
-*TemplateUrl (if used)
+*TemplateUrl (if used) Format: ../../views/events/wnop.html
 *Display Date
 *Start Date
 *End Date
@@ -14,3 +14,11 @@ t-feast
 2017-11-01
 2017-11-21
 2017-11-21
+Fundraiser!
+Going on NOW! Fundraiser at Five Below! Click for info!
+Help us raise funds for our church by shopping at Five Below! From November 19th through November 25th, if you print out this form and show it when you check out, Five Below will donate 10% of the money you spend to support our ministry! So grab that debit card and LET'S GO SHOPPING!
+5below
+../../views/events/5below.html
+2017-11-19
+2017-11-19
+2017-11-25
