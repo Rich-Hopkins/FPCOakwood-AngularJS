@@ -1,104 +1,64 @@
-﻿* Date
-* Altar
-* Announcements
-* Baptism
-* Bus1
-* Bus2
-* Bus3
-* Greeter
-* Inspiration
-* Nursery
-* Parking
-* Sound Booth
-* Usher
-2017-11-19
-Joe J
-Keith B
-John S, Mary S
-Fred E
-John S
+﻿Date,
+Altar,
+Announcements,
+Baptism,
+Bus-Lenox,
+Bus-Evergreen,
+Greeter,
+Inspiration,
+Nursery,
+Parking,
+Sound Booth,
+Usher,
 
-Karen W
-Keith B
-Sabrina K
-Mike B
-Rich H, Trevin L
-Garfield W
-2017-11-26
-Mary S, C Tillmutt
-Fred E
-Joe J, Carolyn J
-Garfield W
-Rich H
+Date,2017-12-10
+Altar,Joe J, Carolyn J
+Announcements,Fred E
+Baptism,John S, Mary S
+Bus-Lenox,Garfield W
+Bus-Evergreen,Rich H
+Greeter,Mary S
+Inspiration,Kathy E
+Nursery,Melissa M
+Parking,Fred E
+Sound Booth,John S, Rich H
+Usher,Mike B
 
-Mike C
-Kathy E
-Ginger G, Asia C
-Fred E
-John S, Daniel R
-Mike B
-2017-12-03
-Suzi H, Wanda B
-Lloyd V
-Fred E, C Tillmutt
-Fred E
-John S
+Date,2017-12-17
+Altar,Mary S, C Tillmutt
+Announcements,Zachary J
+Baptism,Fred E, Mary H
+Bus-Lenox,Fred E
+Bus-Evergreen,John S
+Greeter,Karen W
+Inspiration,Keith B
+Nursery,Kathy E
+Parking,Mike B
+Sound Booth,Rich H, Trevin L
+Usher,Garfield W
 
-Joe J
-Trish R
-Mary S
-Mike B
-Scott R, Trevin L
-Scott R
-2017-12-10
-Joe J, Carolyn J
-Fred E
-John S, Mary S
-Garfield W
-Rich H
+Date,2017-12-24
+Altar,Pam L, Joe J
+Announcements,Keith B
+Baptism,Joe J, Carolyn J
+Bus-Lenox,Garfield W
+Bus-Evergreen,Rich H
+Greeter,Mike C
+Inspiration,Lloyd V
+Nursery,Marsha P
+Parking,John S
+Sound Booth,John S, Daniel R
+Usher,Mike B
 
-Mary S
-Kathy E
-Melissa M
-Fred E
-John S, Rich H
-Mike B
-2017-12-17
-Mary S, C Tillmutt
-Zachary J
-Fred E, Mary H
-Fred E
-John S
-
-Karen W
-Keith B
-Kathy E
-Mike B
-Rich H, Trevin L
-Garfield W
-2017-12-24
-Pam L, Joe J
-Keith B
-Joe J, Carolyn J
-Garfield W
-Rich H
-
-Mike C
-Lloyd V
-Marsha P
-John S
-John S, Daniel R
-Mike B
-2017-12-31
-Mary S, C Tillmutt
-Lloyd V
-Fred E, Mary H
-Fred E
-John S
-
-Joe J
-Zachary J
-Sabrina K
-Scott Robbins
-John S, Daniel R
-Garfield W
+Date,2017-12-31
+Altar,Mary S, C Tillmutt
+Announcements,Lloyd V
+Baptism,Fred E, Mary H
+Bus-Lenox,Fred E
+Bus-Evergreen,John S
+Greeter,Joe J
+Inspiration,Zachary J
+Nursery,Sabrina K
+Parking,Scott Robbins
+Sound Booth,John S, Daniel R
+Usher,Garfield W
