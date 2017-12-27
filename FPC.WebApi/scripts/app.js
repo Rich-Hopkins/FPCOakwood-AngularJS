@@ -43,7 +43,7 @@
         controllerAs: 'assignments',
         templateUrl: 'views/assignments/assignments.html'
       })
-      .when('/fireworks1',
+      .when('/fireworks',
       {
         controller: 'Schedule',
         controllerAs: 'schedule',
