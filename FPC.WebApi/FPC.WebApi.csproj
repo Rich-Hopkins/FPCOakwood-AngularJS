@@ -132,6 +132,7 @@
     <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="icons.json" />
     <Content Include="index.html" />
     <Content Include="scripts\angular.min.js" />
     <Content Include="scripts\app.js" />
@@ -186,6 +187,7 @@
     <Compile Include="Models\Assignment.cs" />
     <Compile Include="Models\Email.cs" />
     <Compile Include="Models\Event.cs" />
+    <Compile Include="Models\MinistryEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,16 +1,12 @@
 ﻿<div class="row">
-  <div class="col-md-6 col-md-offset-3 col-sm-12 transparentWhite grid">
-    <h4>{{assignment.Date | date: 'EEEE, MMMM d, yyyy'}}</h4>
-    <span class="bold grid2">Altar: </span><span class="grid3">{{assignment.Altar}}</span>
-    <span class="bold grid2">Baptism: </span><span class="grid3">{{assignment.Baptism}}</span>
-    <span class="bold grid2">Bus - Lenox: </span><span class="grid3">{{assignment.Bus1}}</span>
-    <span class="bold grid2">Bus - Evergreen: </span><span class="grid3">{{assignment.Bus2}}</span>
-    <span ng-show="assignment.Bus3 != ''" class="bold grid2">Bus 3: </span><span ng-show="assignment.Bus3 != ''" class="grid3">{{assignment.Bus3}}</span>
-    <span class="bold grid2">Greeter: </span><span class="grid3">{{assignment.Greeter}}</span>
-    <span class="bold grid2">Inspiration: </span><span class="grid3">{{assignment.Inspiration}}</span>
-    <span class="bold grid2">Nursery: </span><span class="grid3">{{assignment.Nursery}}</span>
-    <span class="bold grid2">Parking: </span><span class="grid3">{{assignment.Parking}}</span>
-    <span class="bold grid2">Sound Booth: </span><span class="grid3">{{assignment.Sound}}</span>
-    <span class="bold grid2">Usher: </span><span class="grid3">{{assignment.Usher}}</span>
+  <div class="col-md-8 col-md-offset-2 col-sm-12 transparentWhite ">
+    <h4 class="gridFull">{{assignment.Date | date: 'EEEE, MMMM d, yyyy'}}</h4>
+    
+      <div class="grid gridFull" ng-repeat="a in assignment.Assignments">
+      <span class="bold gridTitle">{{a.Title}}</span>
+      <span ng-repeat="name in a.Names | orderBy: 'name'">{{name}}</span>
+      </div>
+    
+
   </div>
 </div>
