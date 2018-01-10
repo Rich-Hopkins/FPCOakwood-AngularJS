@@ -133,6 +133,21 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
+    <Content Include="ios\ios-appicon-1024-1024.png" />
+    <Content Include="ios\ios-appicon-120-120.png" />
+    <Content Include="ios\ios-appicon-152-152.png" />
+    <Content Include="ios\ios-appicon-180-180.png" />
+    <Content Include="ios\ios-appicon-76-76.png" />
+    <Content Include="ios\ios-launchimage-1024-768.png" />
+    <Content Include="ios\ios-launchimage-1242-2208.png" />
+    <Content Include="ios\ios-launchimage-1334-750.png" />
+    <Content Include="ios\ios-launchimage-1536-2048.png" />
+    <Content Include="ios\ios-launchimage-2048-1536.png" />
+    <Content Include="ios\ios-launchimage-2208-1242.png" />
+    <Content Include="ios\ios-launchimage-640-1136.png" />
+    <Content Include="ios\ios-launchimage-640-960.png" />
+    <Content Include="ios\ios-launchimage-750-1334.png" />
+    <Content Include="ios\ios-launchimage-768-1024.png" />
     <Content Include="scripts\angular.min.js" />
     <Content Include="scripts\app.js" />
     <Content Include="scripts\directives\EventOnEvents.js" />
@@ -197,6 +212,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\favicons\manifest.json" />
     <Content Include="assets\5below.pdf" />
+    <Content Include="icons.json" />
     <None Include="Properties\PublishProfiles\fpcoakwood - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -206,7 +222,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="android\" />
     <Folder Include="aspnet_client\system_web\4_0_30319\" />
+    <Folder Include="chrome\" />
+    <Folder Include="firefox\" />
+    <Folder Include="windows10\" />
+    <Folder Include="windows\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
