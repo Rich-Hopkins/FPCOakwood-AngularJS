@@ -132,6 +132,7 @@
     <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="icons.json" />
     <Content Include="index.html" />
     <Content Include="ios\ios-appicon-1024-1024.png" />
     <Content Include="ios\ios-appicon-120-120.png" />
@@ -212,7 +213,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\favicons\manifest.json" />
     <Content Include="assets\5below.pdf" />
-    <Content Include="icons.json" />
     <None Include="Properties\PublishProfiles\fpcoakwood - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
