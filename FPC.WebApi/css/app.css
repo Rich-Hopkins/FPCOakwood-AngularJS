@@ -171,6 +171,10 @@ a img:hover {
   font-weight: bold;
 }
 
+.noBold {
+  font-weight: normal;
+}
+
 .sideMargins {
 	margin-right: 3rem;
 	margin-left: 3rem;
@@ -192,23 +196,23 @@ a img:hover {
 
 .grid {
   display: grid;
-  grid-template-columns: minmax(2rem, 5rem) minmax(15rem, 20rem) minmax(15rem, 30rem);
+  grid-template-columns: minmax(10rem, 15rem) repeat(auto-fit, minmax(10rem, 15rem));
+  grid-template-rows: auto;
+  grid-template-areas:
+  grid-gap: 2rem;
 }
 
 .grid span {
   margin-bottom: 1rem;
 }
 
-.grid h4 {
+.gridFull {
   grid-column: 1/-1;
 }
 
-.grid2 {
-  grid-column-start: 2;
-}
-
-.grid3 {
-  grid-column-start: 3;
+.gridTitle {
+  grid-column: 1;
+  grid-row-end: span 10;
 }
 
 .div-center {

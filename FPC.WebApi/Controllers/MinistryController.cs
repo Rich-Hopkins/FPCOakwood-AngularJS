@@ -12,9 +12,10 @@ namespace FPC.WebApi.Controllers
 {
   public class MinistryController : ApiController
   {
-    public IEnumerable<Assignment> GetAllAssignments()
+    public IEnumerable<MinistryEvent> GetAllAssignments()
     {
-      var assignments = new List<Assignment>();
+      var ministryEvents = new List<MinistryEvent>();
+      MinistryEvent mE = new MinistryEvent();
       string path = HttpRuntime.AppDomainAppPath + "App_Data/ministrydata.txt";
       int id = 0;
       string line;
@@ -29,25 +30,39 @@ namespace FPC.WebApi.Controllers
             file.ReadLine();
           }
 
+          var assignments = new List<Assignment>();
           while ((line = file.ReadLine()) != null)
           {
-            assignments.Add(new Assignment()
+
+            if (line == "")
             {
-              Date = DateTime.Parse(line.Trim()),
-              Altar = file.ReadLine().Trim(),
-              Announcements = file.ReadLine().Trim(),
-              Baptism = file.ReadLine().Trim(),
-              Bus1 = file.ReadLine().Trim(),
-              Bus2 = file.ReadLine().Trim(),
-              Bus3 = file.ReadLine().Trim(),
-              Greeter = file.ReadLine().Trim(),
-              Inspiration = file.ReadLine().Trim(),
-              Nursery = file.ReadLine().Trim(),
-              Parking = file.ReadLine().Trim(),
-              Sound = file.ReadLine().Trim(),
-              Usher = file.ReadLine().Trim()
-            });
+              mE.Assignments = assignments;
+              ministryEvents.Add(mE);
+              assignments = new List<Assignment>();
+            }
+            else
+            {
+              var l = line.Split(',').Select(p=>p.Trim()).ToArray();
+              if (l[0].ToLower() == "date")
+              {
+                mE = new MinistryEvent(l[1]);
+              }
+              else
+              {
+                var a = new Assignment(l[0]);
+                var list = new List<string>();
+                for (var i = 1; i < l.Length; i++)
+                {
+                  list.Add(l[i]);
+                }
+                a.Names = list;
+                assignments.Add(a);
+              }
+            }
           }
+          mE.Assignments = assignments;
+          ministryEvents.Add(mE);
+
         }
       }
       catch (Exception ex)
@@ -55,7 +70,7 @@ namespace FPC.WebApi.Controllers
 
       }
 
-      return assignments.Where(e=>e.Date > DateTime.Today.AddDays(-1));
+      return ministryEvents; //assignments.Where(e=>e.Date > DateTime.Today.AddDays(-1));
     }
   }
 }
