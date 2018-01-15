@@ -81,6 +81,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="android\android-launchericon-144-144.png" />
+    <Content Include="android\android-launchericon-192-192.png" />
+    <Content Include="android\android-launchericon-48-48.png" />
+    <Content Include="android\android-launchericon-512-512.png" />
+    <Content Include="android\android-launchericon-72-72.png" />
+    <Content Include="android\android-launchericon-96-96.png" />
     <Content Include="App_Data\eventdata.txt" />
     <Content Include="App_Data\ministrydata.txt" />
     <Content Include="assets\favicons\android-chrome-192x192.png" />
@@ -223,7 +229,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="android\" />
     <Folder Include="aspnet_client\system_web\4_0_30319\" />
     <Folder Include="chrome\" />
     <Folder Include="firefox\" />
