@@ -194,23 +194,16 @@ a img:hover {
 	padding: 12px;
 }
 
-.grid {
+.assignments {
   display: grid;
-  grid-template-columns: minmax(15rem, 20rem) repeat(auto-fill, minmax(8rem, 12rem));
-  grid-template-rows: auto;
-  grid-template-areas:
-  grid-gap: 2rem;
+  grid-template-columns: 15rem repeat(auto-fit, minmax(8rem, 12rem));
 }
 
-.grid span {
+.assignments span {
   margin-bottom: 1rem;
 }
 
-.gridFull {
-  grid-column: 1/-1;
-}
-
-.gridTitle {
+.assignmentTitle {
   grid-column: 1;
   grid-row-end: span 8;
 }

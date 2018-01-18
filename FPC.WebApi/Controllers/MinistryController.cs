@@ -70,7 +70,7 @@ namespace FPC.WebApi.Controllers
 
       }
 
-      return ministryEvents; //assignments.Where(e=>e.Date > DateTime.Today.AddDays(-1));
+      return ministryEvents.Where(e=>Convert.ToDateTime(e.Date) > DateTime.Today.AddDays(-1));
     }
   }
 }

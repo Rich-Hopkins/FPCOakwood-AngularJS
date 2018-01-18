@@ -1,12 +1,12 @@
 ﻿<div class="row">
   <div class="col-md-8 col-md-offset-2 col-sm-12 transparentWhite ">
-    <h4 class="gridFull">{{assignment.Date | date: 'EEEE, MMMM d, yyyy'}}</h4>
-    
-      <div class="grid gridFull" ng-repeat="a in assignment.Assignments">
-      <span class="bold gridTitle">{{a.Title}}</span>
+    <h4>{{assignment.Date | date: 'EEEE, MMMM d, yyyy'}}</h4>
+
+    <div class="assignments" ng-repeat="a in assignment.Assignments">
+      <span class="bold assignmentTitle">{{a.Title}}</span>
       <span ng-repeat="name in a.Names | orderBy: 'name'">{{name}}</span>
-      </div>
-    
+    </div>
+
 
   </div>
 </div>
