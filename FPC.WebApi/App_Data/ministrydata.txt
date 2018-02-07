@@ -11,64 +11,11 @@ Parking,
 Sound Booth, 
 Usher, 
 
-Date, 2018-01-17
-Teacher, Regina V
+Date, 2018-02-07
+Kitchen, Trish R, Rich H, Melissa M.
+Teacher, Ashlee W
 Monitor, Keith B
-Kitchen, Trish R, Mary H, Emily B, Rich H
-Meal, Waffles
-Craft, Ashlee W, Sabrina K, Mary S
-
-Date, 2018-01-21
-Altar, Mary S, Tillmutt C
-Announcements, Keith B
-Baptism, Fred E, C Tillmutt
-Bus - Lenox, Fred E
-Bus - Evergreen, John S
-Greeter, Karen W
-Inspiration, Keith B
-Nursery, Sabrina K
-Parking, Mike B
-Sound Booth, Rich H, Trevin L
-
-Date, 2018-01-24
-Teacher, Keith B
-Monitor, Ashlee W
-Kitchen, Trish R, Pam L, Gloria K, Rich H
-Meal, Spaghetti
-Craft, Ashlee W, Doris B, Emily B
-
-Date, 2018-01-28
-Altar, Regina V, Joe J
-Announcements, Fred E
-Baptism, Mary H, Joe J
-Bus-Lenox, Garfield W
-Bus-Evergreen, Rich H
-Greeter, Mike C
-Inspiration, Kathy E
-Nursery, Ginger G, Asia C
-Parking, Fred E
-Sound Booth, John S, Daniel R
-Usher, Mike B
-
-Date, 2018-01-31
-Teacher, Sis. Stewart
-Monitor, Regina V
-Kitchen, Trish R, Mary H, Ginger G, Rich H
-Meal, Hamburger Steak, Mac-n-Cheese
-Craft, Wanda B, Ashlee W
-
-Date, 2018-02-04
-Altar, Joe J, Carolyn J
-Announcements, Lloyd V
-Baptism, Fred E, C Tillmutt
-Bus-Lenox, Fred E
-Bus-Evergreen, John S
-Greeter, Joe J
-Inspiration, Rhonda B
-Nursery, Melissa M
-Parking, Mike B
-Sound Booth, Rich H, Daniel R
-Usher, Scott R
+Craft, Ashlee W
 
 Date, 2018-02-11
 Altar, Suzi H, Wanda B
