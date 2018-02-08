@@ -4,7 +4,7 @@
 
     <div class="assignments" ng-repeat="a in assignment.Assignments">
       <span class="bold assignmentTitle">{{a.Title}}</span>
-      <span ng-repeat="name in a.Names | orderBy: 'name'">{{name}}</span>
+      <span ng-repeat="person in a.Names | orderBy: person">{{person}}</span>
     </div>
 
 
