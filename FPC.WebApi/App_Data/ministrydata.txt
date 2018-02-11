@@ -11,12 +11,6 @@ Parking,
 Sound Booth, 
 Usher, 
 
-Date, 2018-02-07
-Kitchen, Trish R, Rich H, Melissa M.
-Teacher, Ashlee W
-Monitor, Keith B
-Craft, Ashlee W
-
 Date, 2018-02-11
 Altar, Suzi H, Wanda B
 Announcements, Zachary J
@@ -27,7 +21,7 @@ Greeter, Mary S
 Inspiration, Lloyd V
 Nursery, Marsha P
 Parking, Scott R
-Sound Booth, Scott R, John S
+Sound Booth, Scott R, Trevin L
 Usher, Fred E
 
 Date, 2018-02-14
@@ -46,7 +40,7 @@ Greeter, Karen W
 Inspiration, Keith B
 Nursery, Sabrina K
 Parking, Mike B
-Sound Booth, Rich H, Trevin L
+Sound Booth, Rich H, Delila D
 Usher, Garfield W
 
 Date, 2018-02-21
