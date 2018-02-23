@@ -4,66 +4,146 @@ Announcements,
 Baptism, 
 Bus-Lenox, 
 Bus-Evergreen, 
+Usher, 
 Greeter, 
 Inspiration, 
 Nursery, 
 Parking, 
 Sound Booth, 
-Usher, 
-
-Date, 2018-02-11
-Altar, Suzi H, Wanda B
-Announcements, Zachary J
-Baptism, Joe J, Carolyn J
-Bus-Lenox, Garfield W
-Bus-Evergreen, Rich H
-Greeter, Mary S
-Inspiration, Lloyd V
-Nursery, Marsha P
-Parking, Scott R
-Sound Booth, Scott R, Trevin L
-Usher, Fred E
-
-Date, 2018-02-14
-Teacher, Regina V
-Monitor, Fred E
-Kitchen, Trish R, Rich H, Pam L
-Craft, Doris B, Keith B, Wanda B
-
-Date, 2018-02-18
-Altar, Mary S, C Tillmutt
-Announcements, Keith B
-Baptism, John S, Mary S
-Bus-Lenox, Fred E
-Bus-Evergreen, John S
-Greeter, Karen W
-Inspiration, Keith B
-Nursery, Sabrina K
-Parking, Mike B
-Sound Booth, Rich H, Delila D
-Usher, Garfield W
-
-Date, 2018-02-21
-Teacher, Stewart
-Monitor, Martha S
-Kitchen, Trish R, Rich H, Gloria K
-Craft, Keith B, Wanda B, Mary H
 
 Date, 2018-02-25
 Altar, Pam L, Joe J
 Announcements, Fred E
 Baptism, Fred E, Mary H
 Bus-Lenox, Garfield W
-Bus-Evergreen, Rich H
+Bus-Evergreen, John S
+Usher, Mike B
 Greeter, Mike C
 Inspiration, Kathy E
 Nursery, Ginger G, Asia C
 Parking, Fred E
-Sound Booth, John S, Daniel R
-Usher, Mike B
+Sound Booth, Rich H, Delila D
 
 Date, 2018-02-28
 Teacher, Keith B, Wanda B
 Monitor, Emily B
 Kitchen, Rich H, Pam L, Mary S
 Craft, Ashlee W, Sabrina K
+Meal, Chicken Alfredo
+
+Date, 2018-03-04
+Altar, Joe J, Carolyn J
+Announcements, Lloyd V
+Baptism, John S, Mary S
+Bus-Lenox, Fred E
+Bus-Evergreen, John S
+Usher, Scott R
+Greeter, Joe J
+Inspiration, Trish R
+Nursery, Melissa M
+Parking, Mike B
+Sound Booth, Rich H, Delila D
+
+Date, 2018-03-11
+Altar, Suzi H, Wanda B
+Announcements, Zachary J
+Baptism, Joe J, Carolyn J
+Bus-Lenox, Garfield W
+Bus-Evergreen, Rich H
+Usher, Fred E
+Greeter, Mary S
+Inspiration, Keith B
+Nursery, Marsha P
+Parking, Scott R
+Sound Booth, Rich H, Delila D
+
+Date, 2018-03-18
+Altar, Mary S, C Tillmutt
+Announcements, Keith B
+Baptism, Fred E, Mary H
+Bus-Lenox, Fred E
+Bus-Evergreen, John S
+Usher, Garfield W
+Greeter, Karen W
+Inspiration, Rhonda B
+Nursery, Sabrina K
+Parking, Mike B
+Sound Booth, Daniel R, John S
+
+Date, 2018-03-25
+Altar, Regina V, Joe J
+Announcements, Fred E
+Baptism, Joe J, C Tillmutt
+Bus-Lenox, Garfield W
+Bus-Evergreen, Rich H
+Usher, Mike B
+Greeter, Mike C
+Inspiration, Zachary J
+Nursery, Ginger G, Asia C
+Parking, Fred E
+Sound Booth, Scott R, Trevin L
+
+Date, 2018-04-01
+Altar, Suzi H, Wanda B
+Announcements, Lloyd V
+Baptism, John S, Mary S
+Bus-Lenox, Fred E
+Bus-Evergreen, John S
+Usher, Scott R
+Greeter, Joe J
+Inspiration, Trish R
+Nursery, Melissa M
+Parking, Mike B
+Sound Booth, Rich H, Delila D
+
+Date, 2018-04-08
+Altar, Joe J, Carolyn J
+Announcements, Zachary J
+Baptism, Fred E, Mary H
+Bus-Lenox, Garfield W
+Bus-Evergreen, Rich H
+Usher, Fred E
+Greeter, Mary S
+Inspiration, Keith B
+Nursery, Marsha P
+Parking, Scott R
+Sound Booth, John S, Daniel R
+
+Date, 2018-04-15
+Altar, Regina V, Joe J
+Announcements, Keith B
+Baptism, Joe J, Carolyn J
+Bus-Lenox, Fred E
+Bus-Evergreen, John S
+Usher, Garfield W
+Greeter, Karen W
+Inspiration, Rhonda B
+Nursery, Sabrina K
+Parking, Mike B
+Sound Booth, Scott R, Trevin L
+
+Date, 2018-04-22
+Altar, Mary S, C Tillmutt
+Announcements, Fred E
+Baptism, John S, C Tillmutt
+Bus-Lenox, Garfield W
+Bus-Evergreen, Rich H
+Usher, Mike B
+Greeter, Mike C
+Inspiration, Zachary J
+Nursery, Ginger G, Asia C
+Parking, Fred E
+Sound Booth, John S, Daniel R
+
+Date, 2018-04-29
+Altar, Suzi H, Wanda B
+Announcements, Lloyd V
+Baptism, John S, Mary S
+Bus-Lenox, Fred E
+Bus-Evergreen, John S
+Usher, Scott R
+Greeter, Joe J
+Inspiration, Lloyd V
+Nursery, Melissa M
+Parking, Mike B
+Sound Booth, Rich H, Delila D
