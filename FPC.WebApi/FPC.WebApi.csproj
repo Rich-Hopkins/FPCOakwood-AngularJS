@@ -99,40 +99,48 @@
     <Content Include="assets\favicons\mstile-150x150.png" />
     <Content Include="assets\favicons\mstile-70x70.png" />
     <Content Include="assets\favicons\safari-pinned-tab.svg" />
-    <Content Include="assets\images\address.png" />
-    <Content Include="assets\images\building-large-landscape.jpg" />
-    <Content Include="assets\images\building-opengraph-large.jpg" />
-    <Content Include="assets\images\building-opengraph-small.jpg" />
-    <Content Include="assets\images\building-small-landscape.jpg" />
-    <Content Include="assets\images\building-small-portrait.jpg" />
-    <Content Include="assets\images\event-images\christmas-1000w.jpg" />
-    <Content Include="assets\images\event-images\christmas-1500w.jpg" />
-    <Content Include="assets\images\event-images\christmas-250w.jpg" />
-    <Content Include="assets\images\event-images\christmas-400w.jpg" />
-    <Content Include="assets\images\event-images\christmas-500w.jpg" />
-    <Content Include="assets\images\event-images\dec16-1000w.jpg" />
-    <Content Include="assets\images\event-images\dec16-1500w.jpg" />
-    <Content Include="assets\images\event-images\dec16-250w.jpg" />
-    <Content Include="assets\images\event-images\dec16-400w.jpg" />
-    <Content Include="assets\images\event-images\dec16-500w.jpg" />
-    <Content Include="assets\images\event-images\hyphen-1000w.jpg" />
-    <Content Include="assets\images\event-images\hyphen-1500w.jpg" />
-    <Content Include="assets\images\event-images\hyphen-250w.jpg" />
-    <Content Include="assets\images\event-images\hyphen-400w.jpg" />
-    <Content Include="assets\images\event-images\hyphen-500w.jpg" />
-    <Content Include="assets\images\event-images\kingdomyouth-1000w.jpg" />
-    <Content Include="assets\images\event-images\kingdomyouth-1500w.jpg" />
-    <Content Include="assets\images\event-images\kingdomyouth-250w.jpg" />
-    <Content Include="assets\images\event-images\kingdomyouth-400w.jpg" />
-    <Content Include="assets\images\event-images\kingdomyouth-500w.jpg" />
-    <Content Include="assets\images\facebook.png" />
-    <Content Include="assets\images\favicon.png" />
-    <Content Include="assets\images\FPCLogo-large.png" />
-    <Content Include="assets\images\FPCLogo-small.png" />
-    <Content Include="assets\images\Stewarts-square-large.png" />
-    <Content Include="assets\images\Stewarts-square-small.png" />
-    <Content Include="assets\images\Stewarts-wide-small.png" />
-    <Content Include="assets\images\Stewarts-wide.png" />
+    <Content Include="assets\images\address.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\building-large-landscape.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\building-opengraph-large.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\building-opengraph-small.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\building-small-landscape.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\building-small-portrait.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\facebook.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\favicon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\FPCLogo-large.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\FPCLogo-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\Stewarts-square-large.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\Stewarts-square-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\Stewarts-wide-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\Stewarts-wide.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="css\app.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="favicon.png" />
@@ -230,6 +238,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="aspnet_client\system_web\4_0_30319\" />
+    <Folder Include="assets\images\event-images\" />
     <Folder Include="chrome\" />
     <Folder Include="firefox\" />
     <Folder Include="windows10\" />
