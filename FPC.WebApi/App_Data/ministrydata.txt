@@ -11,26 +11,6 @@ Nursery,
 Parking, 
 Sound Booth, 
 
-Date, 2018-02-25
-Altar, Pam L, Joe J
-Announcements, Fred E
-Baptism, Fred E, Mary H
-Bus-Lenox, Garfield W
-Bus-Evergreen, John S
-Usher, Mike B
-Greeter, Mike C
-Inspiration, Kathy E
-Nursery, Ginger G, Asia C
-Parking, Fred E
-Sound Booth, Rich H, Delila D
-
-Date, 2018-02-28
-Teacher, Keith B, Wanda B
-Monitor, Emily B
-Kitchen, Rich H, Pam L, Mary S
-Craft, Ashlee W, Sabrina K
-Meal, Chicken Alfredo
-
 Date, 2018-03-04
 Altar, Joe J, Carolyn J
 Announcements, Lloyd V
@@ -43,6 +23,13 @@ Inspiration, Trish R
 Nursery, Melissa M
 Parking, Mike B
 Sound Booth, Rich H, Delila D
+
+Date, 2018-03-07
+Lesson, Jesus is arrested
+Teacher, Regina V
+Monitor, Keith B
+Kitchen, Trish R, Rich H, Melissa A
+Craft, Wanda B, Emily B
 
 Date, 2018-03-11
 Altar, Suzi H, Wanda B
@@ -57,6 +44,13 @@ Nursery, Marsha P
 Parking, Scott R
 Sound Booth, Rich H, Delila D
 
+Date, 2018-03-14
+Lesson, Jesus is mocked, Crown of thorns
+Teacher, Ashlee W
+Monitor, Fred E
+Kitchen, Pam L, Rich H, Trish R
+Craft, Wanda B, Doris B
+
 Date, 2018-03-18
 Altar, Mary S, C Tillmutt
 Announcements, Keith B
@@ -70,6 +64,13 @@ Nursery, Sabrina K
 Parking, Mike B
 Sound Booth, Daniel R, John S
 
+Date, 2018-03-21
+Lesson, Crucifixion
+Teacher, Ashlee W
+Monitor, Regina V
+Kitchen, Trish R, Rich H, Gloria K
+Craft, Wanda B, Mary H
+
 Date, 2018-03-25
 Altar, Regina V, Joe J
 Announcements, Fred E
@@ -82,6 +83,13 @@ Inspiration, Zachary J
 Nursery, Ginger G, Asia C
 Parking, Fred E
 Sound Booth, Scott R, Trevin L
+
+Date, 2018-03-28
+Lesson, Resurrection
+Teacher, Keith B
+Monitor, Fred E
+Kitchen, Pam L, Rich H, Trish R
+Craft, Ashlee W, Sabrina K
 
 Date, 2018-04-01
 Altar, Suzi H, Wanda B

@@ -196,7 +196,7 @@ a img:hover {
 
 .assignments {
   display: grid;
-  grid-template-columns: 15rem repeat(auto-fit, minmax(8rem, 12rem));
+  grid-template-columns: 17rem repeat(auto-fit, minmax(8rem, 14rem));
 }
 
 .assignments span {
