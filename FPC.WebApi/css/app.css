@@ -168,7 +168,11 @@ a img:hover {
 }
 
 .bold {
-	font-weight: bold;
+  font-weight: bold;
+}
+
+.noBold {
+  font-weight: normal;
 }
 
 .sideMargins {
@@ -188,6 +192,20 @@ a img:hover {
 .bodyContainer {
 	margin-bottom: 100px;
 	padding: 12px;
+}
+
+.assignments {
+  display: grid;
+  grid-template-columns: 17rem repeat(auto-fit, minmax(8rem, 14rem));
+}
+
+.assignments span {
+  margin-bottom: 1rem;
+}
+
+.assignmentTitle {
+  grid-column: 1;
+  grid-row-end: span 8;
 }
 
 .div-center {

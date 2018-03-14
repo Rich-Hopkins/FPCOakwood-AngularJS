@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
-<head lang="en">
+<head prefix="og: https://ogp.me/ns#" lang="en">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +17,8 @@
   <!--OpenGraph-->
   <meta property="og:type" content="website">
   <meta property="og:title" content="First Pentecostal Church of Oakwood">
-  <meta property="og:url" content="http://fpcoakwood.org">
-  <meta property="og:image" content="http://fpcoakwood.org/assets/images/building-opengraph-small.jpg">
+  <meta property="og:url" content="https://fpcoakwood.org">
+  <meta property="og:image" content="https://fpcoakwood.org/assets/images/building-opengraph-small.jpg">
   <meta property="og:description" content="First Pentecostal Church of Oakwood - Where the Word of God comes alive in you!">
 
   <!--CSS-->
@@ -26,10 +26,11 @@
   <link rel="stylesheet" href="css/app.css" />
 
   <!--Favicon-->
+  <!--<link rel="manifest" href="/assets/favicons/manifest.json">-->
+  <link rel="manifest" href="icons.json"/>
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/assets/favicons/manifest.json">
   <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#93c54b">
   <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
   <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
@@ -66,6 +67,7 @@
   <script src="scripts/directives/ValidateInputValues.js"></script>
   <script src="scripts/directives/EventOnHome.js"></script>
   <script src="scripts/directives/EventOnEvents.js"></script>
+  <script src="scripts/directives/MinistryAssignment.js"></script>
   <script src="scripts/services/EmailService.js"></script>
   <script src="scripts/services/EventsService.js"></script>
   <script src="views/mainmenu/MainMenuController.js"></script>
@@ -79,6 +81,7 @@
   <script src="views/fireworksinventory/InventoryController.js"></script>
   <script src="views/fireworksdrawercount/DrawerController.js"></script>
   <script src="views/donate/DonateController.js"></script>
+  <script src="views/assignments/AssignmentsController.js"></script>
 
 </body>
 </html>

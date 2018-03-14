@@ -1,0 +1,147 @@
+﻿Date, 
+Altar, 
+Announcements, 
+Baptism, 
+Bus-Lenox, 
+Bus-Evergreen, 
+Usher, 
+Greeter, 
+Inspiration, 
+Nursery, 
+Parking, 
+Sound Booth, 
+
+Date, 2018-03-07
+Lesson, Jesus is arrested
+Teacher, Regina V
+Monitor, Keith B
+Kitchen, Trish R, Rich H, Melissa A
+Meal, Pizza Sliders and Doritos
+Craft, Wanda B, Emily B
+
+Date, 2018-03-11
+Altar, Suzi H, Wanda B
+Announcements, Zachary J
+Baptism, Joe J, Carolyn J
+Bus-Lenox, Garfield W
+Bus-Evergreen, Rich H
+Usher, Fred E
+Greeter, Mary S
+Inspiration, Keith B
+Nursery, Marsha P
+Parking, Scott R
+Sound Booth, Rich H, Delila D
+
+Date, 2018-03-14
+Lesson, Jesus is mocked, Crown of thorns
+Teacher, Ashlee W
+Monitor, Fred E
+Kitchen, Pam L, Rich H, Trish R
+Meal, Quesadillas and Nachos
+Craft, Wanda B, Doris B
+
+Date, 2018-03-18
+Altar, Mary S, C Tillmutt
+Announcements, Keith B
+Baptism, Fred E, Mary H
+Bus-Lenox, Fred E
+Bus-Evergreen, John S
+Usher, Garfield W
+Greeter, Karen W
+Inspiration, Rhonda B
+Nursery, Sabrina K
+Parking, Mike B
+Sound Booth, Daniel R, John S
+
+Date, 2018-03-21
+Lesson, Crucifixion
+Teacher, Ashlee W
+Monitor, Regina V
+Kitchen, Trish R, Rich H, Gloria K
+Breaded Chicken Tenders, Mac-n-Cheese
+Craft, Wanda B, Mary H
+
+Date, 2018-03-25
+Altar, Regina V, Joe J
+Announcements, Fred E
+Baptism, Joe J, C Tillmutt
+Bus-Lenox, Garfield W
+Bus-Evergreen, Rich H
+Usher, Mike B
+Greeter, Mike C
+Inspiration, Zachary J
+Nursery, Ginger G, Asia C
+Parking, Fred E
+Sound Booth, Scott R, Trevin L
+
+Date, 2018-03-28
+Lesson, Resurrection
+Teacher, Keith B
+Monitor, Fred E
+Kitchen, Pam L, Rich H, Trish R
+Craft, Ashlee W, Sabrina K
+
+Date, 2018-04-01
+Altar, Suzi H, Wanda B
+Announcements, Lloyd V
+Baptism, John S, Mary S
+Bus-Lenox, Fred E
+Bus-Evergreen, John S
+Usher, Scott R
+Greeter, Joe J
+Inspiration, Trish R
+Nursery, Melissa M
+Parking, Mike B
+Sound Booth, Rich H, Delila D
+
+Date, 2018-04-08
+Altar, Joe J, Carolyn J
+Announcements, Zachary J
+Baptism, Fred E, Mary H
+Bus-Lenox, Garfield W
+Bus-Evergreen, Rich H
+Usher, Fred E
+Greeter, Mary S
+Inspiration, Keith B
+Nursery, Marsha P
+Parking, Scott R
+Sound Booth, John S, Daniel R
+
+Date, 2018-04-15
+Altar, Regina V, Joe J
+Announcements, Keith B
+Baptism, Joe J, Carolyn J
+Bus-Lenox, Fred E
+Bus-Evergreen, John S
+Usher, Garfield W
+Greeter, Karen W
+Inspiration, Rhonda B
+Nursery, Sabrina K
+Parking, Mike B
+Sound Booth, Scott R, Trevin L
+
+Date, 2018-04-22
+Altar, Mary S, C Tillmutt
+Announcements, Fred E
+Baptism, John S, C Tillmutt
+Bus-Lenox, Garfield W
+Bus-Evergreen, Rich H
+Usher, Mike B
+Greeter, Mike C
+Inspiration, Zachary J
+Nursery, Ginger G, Asia C
+Parking, Fred E
+Sound Booth, John S, Daniel R
+
+Date, 2018-04-29
+Altar, Suzi H, Wanda B
+Announcements, Lloyd V
+Baptism, John S, Mary S
+Bus-Lenox, Fred E
+Bus-Evergreen, John S
+Usher, Scott R
+Greeter, Joe J
+Inspiration, Lloyd V
+Nursery, Melissa M
+Parking, Mike B
+Sound Booth, Rich H, Delila D

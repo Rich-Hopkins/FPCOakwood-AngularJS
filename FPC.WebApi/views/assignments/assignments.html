@@ -1,0 +1,8 @@
+﻿<div class="row">
+  <div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12">
+    <h2 ng-show="assignments.assignmentsList.length > 0">Ministry Assignments</h2>
+    <div ng-repeat="assignment in assignments.assignmentsList | orderBy: 'Date'">
+      <ministry-assignment></ministry-assignment>
+    </div>
+  </div>
+</div>

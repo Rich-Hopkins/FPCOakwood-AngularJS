@@ -1,4 +1,4 @@
-﻿<div id="{{event.Id}}" class="col-md-10 col-md-offset-1 col-sm-12 bodyContainer transparentWhite">
+﻿<div id="{{event.Id}}" class="col-md-10 col-md-offset-1 col-sm-12 transparentWhite">
 	<h3>{{event.Title}}</h3>
   <p class="topMargin">{{event.LongDesc}}</p>
   <img class="img-center"
@@ -8,6 +8,6 @@
        ../../assets/images/event-images/{{event.ImageName}}-1000w.jpg 1000w,
 			 ../../assets/images/event-images/{{event.ImageName}}-1500w.jpg 1800w"
        sizes="100vw"
-       alt="{{event.Title}}" />
+       alt="{{event.LongDesc}}" />
   <div class="overflow-auto" ng-include="" src="event.TemplateUrl"></div>
 </div>

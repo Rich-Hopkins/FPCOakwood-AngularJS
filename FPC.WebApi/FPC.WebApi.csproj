@@ -81,7 +81,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="android\android-launchericon-144-144.png" />
+    <Content Include="android\android-launchericon-192-192.png" />
+    <Content Include="android\android-launchericon-48-48.png" />
+    <Content Include="android\android-launchericon-512-512.png" />
+    <Content Include="android\android-launchericon-72-72.png" />
+    <Content Include="android\android-launchericon-96-96.png" />
     <Content Include="App_Data\eventdata.txt" />
+    <Content Include="App_Data\ministrydata.txt" />
     <Content Include="assets\favicons\android-chrome-192x192.png" />
     <Content Include="assets\favicons\android-chrome-256x256.png" />
     <Content Include="assets\favicons\apple-touch-icon.png" />
@@ -92,45 +99,75 @@
     <Content Include="assets\favicons\mstile-150x150.png" />
     <Content Include="assets\favicons\mstile-70x70.png" />
     <Content Include="assets\favicons\safari-pinned-tab.svg" />
-    <Content Include="assets\images\address.png" />
-    <Content Include="assets\images\building-large-landscape.jpg" />
-    <Content Include="assets\images\building-opengraph-large.jpg" />
-    <Content Include="assets\images\building-opengraph-small.jpg" />
-    <Content Include="assets\images\building-small-landscape.jpg" />
-    <Content Include="assets\images\building-small-portrait.jpg" />
-    <Content Include="assets\images\event-images\fall-fellowship-1000w.jpg" />
-    <Content Include="assets\images\event-images\fall-fellowship-1500w.jpg" />
-    <Content Include="assets\images\event-images\fall-fellowship-250w.jpg" />
-    <Content Include="assets\images\event-images\fall-fellowship-400w.jpg" />
-    <Content Include="assets\images\event-images\fall-fellowship-500w.jpg" />
-    <Content Include="assets\images\event-images\fall-festival-1000w.jpg" />
-    <Content Include="assets\images\event-images\fall-festival-1500w.jpg" />
-    <Content Include="assets\images\event-images\fall-festival-250w.jpg" />
-    <Content Include="assets\images\event-images\fall-festival-400w.jpg" />
-    <Content Include="assets\images\event-images\fall-festival-500w.jpg" />
-    <Content Include="assets\images\event-images\wnop-1000w.jpg" />
-    <Content Include="assets\images\event-images\wnop-1500w.jpg" />
-    <Content Include="assets\images\event-images\wnop-250w.jpg" />
-    <Content Include="assets\images\event-images\wnop-400w.jpg" />
-    <Content Include="assets\images\event-images\wnop-500w.jpg" />
-    <Content Include="assets\images\facebook.png" />
-    <Content Include="assets\images\favicon.png" />
-    <Content Include="assets\images\FPCLogo-large.png" />
-    <Content Include="assets\images\FPCLogo-small.png" />
-    <Content Include="assets\images\Stewarts-square-large.png" />
-    <Content Include="assets\images\Stewarts-square-small.png" />
-    <Content Include="assets\images\Stewarts-wide-small.png" />
-    <Content Include="assets\images\Stewarts-wide.png" />
+    <Content Include="assets\images\address.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\building-large-landscape.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\building-opengraph-large.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\building-opengraph-small.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\building-small-landscape.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\building-small-portrait.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\facebook.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\favicon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\FPCLogo-large.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\FPCLogo-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\Stewarts-square-large.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\Stewarts-square-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\Stewarts-wide-small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="assets\images\Stewarts-wide.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="css\app.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="favicon.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="icons.json" />
     <Content Include="index.html" />
+    <Content Include="ios\ios-appicon-1024-1024.png" />
+    <Content Include="ios\ios-appicon-120-120.png" />
+    <Content Include="ios\ios-appicon-152-152.png" />
+    <Content Include="ios\ios-appicon-180-180.png" />
+    <Content Include="ios\ios-appicon-76-76.png" />
+    <Content Include="ios\ios-launchimage-1024-768.png" />
+    <Content Include="ios\ios-launchimage-1242-2208.png" />
+    <Content Include="ios\ios-launchimage-1334-750.png" />
+    <Content Include="ios\ios-launchimage-1536-2048.png" />
+    <Content Include="ios\ios-launchimage-2048-1536.png" />
+    <Content Include="ios\ios-launchimage-2208-1242.png" />
+    <Content Include="ios\ios-launchimage-640-1136.png" />
+    <Content Include="ios\ios-launchimage-640-960.png" />
+    <Content Include="ios\ios-launchimage-750-1334.png" />
+    <Content Include="ios\ios-launchimage-768-1024.png" />
     <Content Include="scripts\angular.min.js" />
     <Content Include="scripts\app.js" />
     <Content Include="scripts\directives\EventOnEvents.js" />
     <Content Include="scripts\directives\EventOnHome.js" />
+    <Content Include="scripts\directives\MinistryAssignment.js" />
     <Content Include="scripts\directives\SelectOnClick.js" />
     <Content Include="scripts\directives\ValidateInputValues.js" />
     <Content Include="scripts\directives\ValidateNumber.js" />
@@ -139,12 +176,16 @@
     <Content Include="scripts\ui-bootstrap-tpls-2.5.0.min.js" />
     <Content Include="views\about\about.html" />
     <Content Include="views\about\AboutController.js" />
+    <Content Include="views\assignments\assignments.html" />
+    <Content Include="views\assignments\AssignmentsController.js" />
+    <Content Include="views\assignments\assignmentTemplate.html" />
     <Content Include="views\donate\donate.html" />
     <Content Include="views\donate\DonateController.js" />
+    <Content Include="views\events\dec16.html" />
     <Content Include="views\events\eventsEventTemplate.html" />
     <Content Include="views\events\events.html" />
     <Content Include="views\events\EventsController.js" />
-    <Content Include="views\events\wnop.html" />
+    <Content Include="views\events\5below.html" />
     <Content Include="views\fireworkscalculator\calculator.html" />
     <Content Include="views\fireworkscalculator\FireworksCalculatorController.js" />
     <Content Include="views\fireworksdrawercount\drawer.html" />
@@ -168,11 +209,14 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\EmailController.cs" />
     <Compile Include="Controllers\EventsController.cs" />
+    <Compile Include="Controllers\MinistryController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Assignment.cs" />
     <Compile Include="Models\Email.cs" />
     <Compile Include="Models\Event.cs" />
+    <Compile Include="Models\MinistryEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -183,6 +227,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\favicons\manifest.json" />
+    <Content Include="assets\5below.pdf" />
     <None Include="Properties\PublishProfiles\fpcoakwood - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -193,6 +238,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="aspnet_client\system_web\4_0_30319\" />
+    <Folder Include="assets\images\event-images\" />
+    <Folder Include="chrome\" />
+    <Folder Include="firefox\" />
+    <Folder Include="windows10\" />
+    <Folder Include="windows\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
