@@ -11,24 +11,12 @@ Nursery,
 Parking, 
 Sound Booth, 
 
-Date, 2018-03-04
-Altar, Joe J, Carolyn J
-Announcements, Lloyd V
-Baptism, John S, Mary S
-Bus-Lenox, Fred E
-Bus-Evergreen, John S
-Usher, Scott R
-Greeter, Joe J
-Inspiration, Trish R
-Nursery, Melissa M
-Parking, Mike B
-Sound Booth, Rich H, Delila D
-
 Date, 2018-03-07
 Lesson, Jesus is arrested
 Teacher, Regina V
 Monitor, Keith B
 Kitchen, Trish R, Rich H, Melissa A
+Meal, Pizza Sliders and Doritos
 Craft, Wanda B, Emily B
 
 Date, 2018-03-11
@@ -49,6 +37,7 @@ Lesson, Jesus is mocked, Crown of thorns
 Teacher, Ashlee W
 Monitor, Fred E
 Kitchen, Pam L, Rich H, Trish R
+Meal, Quesadillas and Nachos
 Craft, Wanda B, Doris B
 
 Date, 2018-03-18
@@ -69,6 +58,7 @@ Lesson, Crucifixion
 Teacher, Ashlee W
 Monitor, Regina V
 Kitchen, Trish R, Rich H, Gloria K
+Breaded Chicken Tenders, Mac-n-Cheese
 Craft, Wanda B, Mary H
 
 Date, 2018-03-25
