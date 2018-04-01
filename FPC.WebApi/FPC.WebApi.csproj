@@ -234,7 +234,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\favicons\manifest.json" />
     <Content Include="assets\5below.pdf" />
-    <None Include="Properties\PublishProfiles\fpcoakwood - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -247,6 +246,7 @@
     <Folder Include="assets\images\event-images\" />
     <Folder Include="chrome\" />
     <Folder Include="firefox\" />
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="windows10\" />
     <Folder Include="windows\" />
   </ItemGroup>
