@@ -207,6 +207,8 @@
     <Content Include="views\mainmenu\MainMenuController.js" />
     <Content Include="views\offerings\offerings.html" />
     <Content Include="views\offerings\OfferingsController.js" />
+    <Content Include="views\social\social.html" />
+    <Content Include="views\social\SocialController.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

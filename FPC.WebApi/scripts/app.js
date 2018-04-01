@@ -31,6 +31,12 @@
         controllerAs: 'events',
         templateUrl: 'views/events/events.html'
       })
+      .when('/social',
+      {
+        controller: 'Social',
+        controllerAs: 'social',
+        templateUrl: 'views/social/social.html'
+      })
       .when('/donate',
       {
         controller: 'Donate',
