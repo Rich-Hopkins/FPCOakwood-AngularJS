@@ -18,7 +18,7 @@ namespace FPC.WebApi.Controllers
         private string flickrUser;
         private string flickrUrl;
 
-        public async Task Get()
+        public async Task<IEnumerable<string>> Get()
         {
             flickrKey = "907ae705e443e08df594689643f378f9";// WebConfigurationManager.AppSettings["FlickrKey"];
             flickrSecret = WebConfigurationManager.AppSettings["FlickrSecret"];
@@ -26,19 +26,21 @@ namespace FPC.WebApi.Controllers
             flickrUrl = "https://api.flickr.com/services/rest";
 
 
-            await GetAlbums();
+            var result = await GetAlbums();
+            return new string[]{result};
         }
 
-        private async Task GetAlbums()
+        private async Task<string> GetAlbums()
         {
             var method = "flickr.photosets.getList";
             var url = string.Format(
-                "https://api.flickr.com/services/rest?api_key={0}&amp;method={1}&amp;format=json&amp;user_id={2}",
-                flickrKey, method, flickrUser);
+                "https://api.flickr.com/services/rest?method={0}&api_key={1}&format=json&user_id={2}",
+                method, flickrKey, flickrUser);
             var http = new HttpClient();
-            var response = await http.GetAsync(url);
-            //var serializer = new DataContractJsonSerializer(typeof(RootObject));
-            var str = "Done.";
+            HttpResponseMessage response = await http.GetAsync(url);
+            response.EnsureSuccessStatusCode();
+            var result = await response.Content.ReadAsStringAsync();
+            return result;
         }
     }
 }
