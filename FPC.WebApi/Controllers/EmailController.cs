@@ -11,7 +11,7 @@ namespace FPC.WebApi.Controllers
 	{
 		public string Get()
 		{
-			return "The service is working.";
+			return "The service is running.";
 		}
 
 		public bool Post(string name, string address, string message)

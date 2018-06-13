@@ -11,86 +11,31 @@ Nursery,
 Parking, 
 Sound Booth, 
 
-Date, 2018-04-04
-Lesson, TBA
-Teacher, TBA
-Monitor, TBA
-Kitchen, Trish R, Rich H, TBA
-Meal, Mac & Cheese & Ham
-Craft, TBA
+Date, 2018-06-13
+Kitchen, Rich H, Trish R, Pam L
 
-Date, 2018-04-08
-Altar, Joe J, Carolyn J
-Announcements, Zachary J
-Baptism, Fred E, Mary H
-Bus-Lenox, Garfield W
-Bus-Evergreen, Rich H
-Usher, Fred E
-Greeter, Mary S
-Inspiration, Keith B
-Nursery, Marsha P
-Parking, Scott R
-Sound Booth, John S, Daniel R
-
-Date, 2018-04-11
-Lesson, TBA
-Teacher, TBA
-Monitor, TBA
-Kitchen, Trish R, Rich H, TBA
-Meal, TBA
-Craft, TBA
-
-Date, 2018-04-15
+Date, 2018-06-17
 Altar, Regina V, Joe J
-Announcements, Keith B
+Announcemenets, Lloyd V
 Baptism, Joe J, Carolyn J
-Bus-Lenox, Fred E
-Bus-Evergreen, John S
-Usher, Garfield W
+Bus - Lenox, Fred E
+Bus - Evergreen, John S
+Foyer Usher, Garfield W
 Greeter, Karen W
 Inspiration, Rhonda B
 Nursery, Sabrina K
 Parking, Mike B
 Sound Booth, Scott R, Trevin L
 
-Date, 2018-04-18
-Lesson, TBA
-Teacher, TBA
-Monitor, TBA
-Kitchen, Trish R, Rich H, TBA
-Meal, TBA
-Craft, TBA
-
-Date, 2018-04-22
+Date, 2018-06-24
 Altar, Mary S, C Tillmutt
-Announcements, Fred E
+Announcements, Zachary J
 Baptism, John S, C Tillmutt
-Bus-Lenox, Garfield W
-Bus-Evergreen, Rich H
-Usher, Mike B
+Bus - Lenox, Garfield W
+Bus - Evergreen, John S
+Foyer Usher, Mike B
 Greeter, Mike C
 Inspiration, Zachary J
-Nursery, Ginger G, Asia C
+Nursery, Ginger, Asia
 Parking, Fred E
 Sound Booth, John S, Daniel R
-
-Date, 2018-04-25
-Lesson, TBA
-Teacher, TBA
-Monitor, TBA
-Kitchen, Trish R, Rich H, TBA
-Meal, TBA
-Craft, TBA
-
-Date, 2018-04-29
-Altar, Suzi H, Wanda B
-Announcements, Lloyd V
-Baptism, John S, Mary S
-Bus-Lenox, Fred E
-Bus-Evergreen, John S
-Usher, Scott R
-Greeter, Joe J
-Inspiration, Lloyd V
-Nursery, Melissa M
-Parking, Mike B
-Sound Booth, Rich H, Delila D
