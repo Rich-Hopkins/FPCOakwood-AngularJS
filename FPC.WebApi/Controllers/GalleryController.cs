@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using Newtonsoft.Json;
 using System.Threading.Tasks;
 using System.Web.Configuration;
 using System.Web.Http;
+using FPC.WebApi.Models;
 
 
 namespace FPC.WebApi.Controllers
@@ -18,7 +20,7 @@ namespace FPC.WebApi.Controllers
         private string flickrUser;
         private string flickrUrl;
 
-        public async Task<object> Get()
+        public async Task<string> Get()
         {
             flickrKey = "907ae705e443e08df594689643f378f9";// WebConfigurationManager.AppSettings["FlickrKey"];
             flickrSecret = WebConfigurationManager.AppSettings["FlickrSecret"];
@@ -27,22 +29,18 @@ namespace FPC.WebApi.Controllers
 
 
             var result = await GetAlbums();
+            //var model = JsonConvert.DeserializeObject(result);
             return result;
         }
 
-        private async Task<object> GetAlbums()
+        private Task<string> GetAlbums()
         {
             var method = "flickr.photosets.getList";
-            var url = string.Format(
-                @"{0}?method={1}&api_key={2}&format=json&user_id={3}",
-                flickrUrl, method, flickrKey, flickrUser);
-            var http = new HttpClient();
-            HttpResponseMessage response = await http.GetAsync(url);
-            response.EnsureSuccessStatusCode();
-            //var result = JsonConvert.DeserializeObject(response.ToString());
-            var result = response.Content.ReadAsStringAsync();
-            //result = result.Replace("\\", "");
-            return result;
+            var parameters = String.Format("?method={0}&api_key={1}&format=json&user_id={2}",
+                method, flickrKey, flickrUser);
+            var client = new HttpClient { BaseAddress = new Uri(flickrUrl) };
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            return client.GetStringAsync(parameters);
         }
     }
 }

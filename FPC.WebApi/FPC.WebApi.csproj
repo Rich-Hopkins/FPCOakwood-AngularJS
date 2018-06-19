@@ -223,9 +223,7 @@
     <Compile Include="Models\Assignment.cs" />
     <Compile Include="Models\Email.cs" />
     <Compile Include="Models\Event.cs" />
-    <Compile Include="Models\GalleryImage.cs" />
-    <Compile Include="Models\GallerySet.cs" />
-    <Compile Include="Models\GallerySize.cs" />
+    <Compile Include="Models\Gallery.cs" />
     <Compile Include="Models\MinistryEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
