@@ -52,9 +52,7 @@ namespace FPC.WebApi.Controllers
                     photoset.Photos.Add(p);
                 }
             }
-
             return photosets;
         }
-
     }
 }
