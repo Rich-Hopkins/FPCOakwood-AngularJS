@@ -17,7 +17,7 @@ Announcements, Zachary Jones
 Baptism, JoeJ, Carolyn J
 Bus - Lenox, Garfield W
 Bus - Evergreen, John S
-Foyer Usher, Fred, E
+Foyer Usher, Fred E
 Greeter, Mary S
 Inspiration, Keith B
 Nursery, Marsha P
@@ -65,7 +65,7 @@ Kitchen, Trish R, Rich H, Pam L
 Date, 2018-07-29
 Altar, Joe J, Carolyn J
 Announcemenets, Zachary J
-Baptism, JOhn S, Mary S
+Baptism, John S, Mary S
 Bus - Lenox, Fred E
 Bus - Evergreen, John S
 Foyer Usher, Scott R
