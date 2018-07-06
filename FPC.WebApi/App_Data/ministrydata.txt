@@ -11,12 +11,111 @@ Nursery,
 Parking, 
 Sound Booth, 
 
-Date, 2018-06-13
-Kitchen, Rich H, Trish R, Pam L
+Date, 2018-07-08
+Altar, Suzi H, Wanda B
+Announcements, Zachary Jones
+Baptism, JoeJ, Carolyn J
+Bus - Lenox, Garfield W
+Bus - Evergreen, John S
+Foyer Usher, Fred, E
+Greeter, Mary S
+Inspiration, Keith B
+Nursery, Marsha P
+Parking, Mike B
+Sound Booth, Scott R, Trevin L
 
-Date, 2018-06-17
-Altar, Regina V, Joe J
+Date, 2018-07-11
+Kitchen, Pam L
+Meal, Pizza
+
+Date, 2018-07-15
+Altar, Mary S, C Tillmutt
 Announcemenets, Lloyd V
+Baptism, Fred E, Mary H
+Bus - Lenox, Fred E
+Bus - Evergreen, John S
+Foyer Usher, Garfield W
+Greeter, Karen W
+Inspiration, Rhonda B
+Nursery, Sabrina K
+Parking, Scott R
+Sound Booth, John S, Daniel R
+
+Date, 2018-07-18
+Kitchen, Rich H, Pam L
+Meal, Chicken Alfredo
+
+Date, 2018-07-22
+Altar, Regina V, Joe J
+Announcemenets, Keith B
+Baptism, Joe J, C Tillmutt
+Bus - Lenox, Garfield W
+Bus - Evergreen, John S
+Foyer Usher, Mike B
+Greeter, Mike C
+Inspiration, Zachary J
+Nursery, Ginger G, Asia C
+Parking, Fred E
+Sound Booth, Scott R, Trevin L
+
+Date,2018-07-25
+Event, VBS
+Kitchen, Trish R, Rich H, Pam L
+
+Date, 2018-07-29
+Altar, Joe J, Carolyn J
+Announcemenets, Zachary J
+Baptism, JOhn S, Mary S
+Bus - Lenox, Fred E
+Bus - Evergreen, John S
+Foyer Usher, Scott R
+Greeter, Joe J
+Inspiration, Trish R
+Nursery, Melissa M
+Parking, Mike B
+Sound Booth, Rich H, Delila D
+
+Date, 2018-08-01
+Event, VBS
+Kitchen, Trish R, Rich H, Pam L
+
+Date, 2018-08-05
+Altar, Suzi H, Wanda B
+Announcemenets, Lloyd V
+Baptism, John S, Mary S
+Bus - Lenox, Fred E
+Bus - Evergreen, John S
+Foyer Usher, Scott R
+Greeter, Joe J
+Inspiration, Trish R
+Nursery, Melissa A
+Parking, Mike B
+Sound Booth, Rich H, Delila D
+
+Date, 2018-08-08
+Event, VBS
+Kitchen, Trish R, Rich H, Pam L
+
+Date, 2018-08-12
+Altar, Joe J, Carolyn J
+Announcemenets, Keith B
+Baptism, Fred E, Mary H
+Bus - Lenox, Garfield W
+Bus - Evergreen, John S
+Foyer Usher, Fred E
+Greeter, Mary S
+Inspiration, Keith B
+Nursery, Marsha P
+Parking, Scott R
+Sound Booth, John S, Daniel R
+
+Date, 2018-08-15
+Event, VBS
+Kitchen, Trish R, Rich H, Pam L
+
+Date, 2018-08-19
+Altar, Regina V, Joe J
+Announcemenets, Zachary J
 Baptism, Joe J, Carolyn J
 Bus - Lenox, Fred E
 Bus - Evergreen, John S
@@ -27,15 +126,19 @@ Nursery, Sabrina K
 Parking, Mike B
 Sound Booth, Scott R, Trevin L
 
-Date, 2018-06-24
+Date, 2018-08-22
+Event, VBS
+Kitchen, Trish R, Rich H, Pam L
+
+Date, 2018-08-26
 Altar, Mary S, C Tillmutt
-Announcements, Zachary J
+Announcemenets, Lloyd V
 Baptism, John S, C Tillmutt
 Bus - Lenox, Garfield W
 Bus - Evergreen, John S
 Foyer Usher, Mike B
 Greeter, Mike C
 Inspiration, Zachary J
-Nursery, Ginger, Asia
+Nursery, Ginger G, Asia C
 Parking, Fred E
 Sound Booth, John S, Daniel R
