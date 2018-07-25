@@ -176,7 +176,7 @@
     <Content Include="scripts\directives\ValidateInputValues.js" />
     <Content Include="scripts\directives\ValidateNumber.js" />
     <Content Include="scripts\services\EmailService.js" />
-    <Content Include="scripts\services\EventsService.js" />
+    <Content Include="scripts\services\DataService.js" />
     <Content Include="scripts\ui-bootstrap-tpls-2.5.0.min.js" />
     <Content Include="views\about\about.html" />
     <Content Include="views\about\AboutController.js" />
@@ -203,6 +203,9 @@
     <Content Include="views\fireworksmenu\menu.html" />
     <Content Include="views\fireworksschedule\schedule.html" />
     <Content Include="views\fireworksschedule\ScheduleController.js" />
+    <Content Include="views\gallery\gallery.html" />
+    <Content Include="views\gallery\GalleryController.js" />
+    <Content Include="views\gallery\galleryTemplate.html" />
     <Content Include="views\home\home.html" />
     <Content Include="views\home\HomeController.js" />
     <Content Include="views\home\homeEventTemplate.html" />
@@ -251,7 +254,6 @@
     <Folder Include="assets\images\event-images\" />
     <Folder Include="chrome\" />
     <Folder Include="firefox\" />
-    <Folder Include="views\Gallery\" />
     <Folder Include="windows10\" />
     <Folder Include="windows\" />
   </ItemGroup>

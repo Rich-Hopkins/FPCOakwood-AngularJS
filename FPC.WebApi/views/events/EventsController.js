@@ -3,11 +3,11 @@
 
 	angular
 		.module('app')
-		.controller('Events', ['eventsService', '$location', '$anchorScroll', '$timeout', Events]);
+		.controller('Events', ['dataService', '$location', '$anchorScroll', '$timeout', Events]);
 
-	function Events(eventsService, $location, $anchorScroll, $timeout, id) {
+	function Events(dataService, $location, $anchorScroll, $timeout, id) {
 		var vm = this;
-		eventsService.getAllEvents()
+		dataService.getAllEvents()
 			.then(function (data) {
 					vm.eventsList = data;
 				},

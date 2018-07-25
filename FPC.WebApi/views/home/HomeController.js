@@ -3,12 +3,12 @@
 
 	angular
 		.module('app')
-		.controller('Home', ['eventsService', Home]);
+		.controller('Home', ['dataService', Home]);
 
-	function Home(eventsService) {
+	function Home(dataService) {
 		var vm = this;
 
-		eventsService.getAllEvents()
+		dataService.getAllEvents()
 			.then(function (data) {
 				vm.eventsList = data;
 			},

@@ -3,11 +3,11 @@
 
   angular
     .module('app')
-    .controller('Assignments', ['eventsService', Assignments]);
+    .controller('Assignments', ['dataService', Assignments]);
 
-  function Assignments(eventsService) {
+  function Assignments(dataService) {
     var vm = this;
-    eventsService.getMinistryAssignments()
+    dataService.getMinistryAssignments()
       .then(function (data) {
         vm.assignmentsList = data;
       },
