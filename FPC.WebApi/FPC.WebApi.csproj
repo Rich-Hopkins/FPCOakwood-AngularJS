@@ -251,6 +251,7 @@
     <Folder Include="assets\images\event-images\" />
     <Folder Include="chrome\" />
     <Folder Include="firefox\" />
+    <Folder Include="views\Gallery\" />
     <Folder Include="windows10\" />
     <Folder Include="windows\" />
   </ItemGroup>
