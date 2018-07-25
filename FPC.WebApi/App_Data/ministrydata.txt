@@ -13,7 +13,13 @@ Sound Booth,
 
 Date,2018-07-25
 Event, VBS
-Kitchen, Trish R, Rich H, Pam L
+Dinner, Trish R, Rich H
+Snack, Pam L, Sis Rudeseal, Anna K
+Teacher, Ashlee W
+Lesson, Peter
+Craft, Wanda B, Sandra M, Mary S
+Outside Activity, Kickball
+Outside Staff, Mike L, Scott R, Trevin L
 
 Date, 2018-07-29
 Altar, Joe J, Carolyn J
@@ -30,7 +36,13 @@ Sound Booth, Rich H, Delila D
 
 Date, 2018-08-01
 Event, VBS
-Kitchen, Trish R, Rich H, Pam L
+Dinner, Trish R, Rich H
+Snack, Pam L, Martha S, Mary S
+Teacher, Sis. Stewart
+Lesson, Elijah
+Craft, Wanda B, Anna K, Cinde P
+Outdoor Activity, Wiffle Ball
+Outdoor Staff, Keith B, Daniel R
 
 Date, 2018-08-05
 Altar, Suzi H, Wanda B
@@ -47,7 +59,13 @@ Sound Booth, Rich H, Delila D
 
 Date, 2018-08-08
 Event, VBS
-Kitchen, Trish R, Rich H, Pam L
+Dinner, Trish R, Rich H
+Snack, Pam L, Cinde P, Anna K
+Teacher, Regina V
+Lesson, Joshua
+Craft, Wanda B, Melissa M, Mary H
+Outdoor Activity, Relay Races
+Outdoor Staff, Lynn K, Roxann S, Daniel R
 
 Date, 2018-08-12
 Altar, Joe J, Carolyn J
@@ -64,7 +82,13 @@ Sound Booth, John S, Daniel R
 
 Date, 2018-08-15
 Event, VBS
-Kitchen, Trish R, Rich H, Pam L
+Dinner, Trish R, Rich H
+Snack, Pam L, C Tillmutt, Martha S
+Teacher, Trish R
+Lesson, Elisha
+Craft, Wanda B, Mary S, Cinde P
+Outdoor Activity, Dodgeball
+Outdoor Staff, Mike L, Trevin L, Keith B
 
 Date, 2018-08-19
 Altar, Regina V, Joe J
@@ -81,7 +105,9 @@ Sound Booth, Scott R, Trevin L
 
 Date, 2018-08-22
 Event, VBS
-Kitchen, Trish R, Rich H, Pam L
+Dinner, Trish R, Rich H
+Snack, Pam L, Amber W, Anna K, Mary S
+Teacher, Lauren C
 
 Date, 2018-08-26
 Altar, Mary S, C Tillmutt
