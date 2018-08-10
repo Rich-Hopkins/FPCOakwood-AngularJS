@@ -7,7 +7,7 @@
 
     function Gallery(dataService) {
         var vm = this;
-        dataService.getGallery()
+        dataService.getData('gallery')
             .then(function (data) {
                 vm.galleryList = data;
                 console.log(vm.galleryList);

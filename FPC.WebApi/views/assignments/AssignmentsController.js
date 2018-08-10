@@ -7,7 +7,7 @@
 
   function Assignments(dataService) {
     var vm = this;
-    dataService.getMinistryAssignments()
+    dataService.getData('ministry')
       .then(function (data) {
         vm.assignmentsList = data;
       },

@@ -7,7 +7,7 @@
 
 	function Events(dataService, $location, $anchorScroll, $timeout, id) {
 		var vm = this;
-		dataService.getAllEvents()
+		dataService.getData('events')
 			.then(function (data) {
 					vm.eventsList = data;
 				},
