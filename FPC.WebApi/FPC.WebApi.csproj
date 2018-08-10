@@ -170,6 +170,7 @@
     <Content Include="scripts\app.js" />
     <Content Include="scripts\directives\EventOnEvents.js" />
     <Content Include="scripts\directives\EventOnHome.js" />
+    <Content Include="scripts\directives\GalleryTile.js" />
     <Content Include="scripts\directives\MinistryAssignment.js" />
     <Content Include="scripts\directives\PayPalButton.js" />
     <Content Include="scripts\directives\SelectOnClick.js" />

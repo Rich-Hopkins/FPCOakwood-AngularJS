@@ -3,5 +3,15 @@
 
 <div class="row">
     <div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12">
+        <h2>Gallery</h2>
+        <div class="form-group">
+            <label for="gallerySelect">Gallery:</label>
+            <select class="form-control" id="gallerySelect" ng-repeat="gallery in gallery.galleryList">
+                <option>{{gallery.Title}}</option>
+            </select>
+        </div>
+        <div>
+            <gallery-tile></gallery-tile>
+        </div>
     </div>
 </div>
