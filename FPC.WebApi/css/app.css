@@ -150,9 +150,9 @@ input.has-error, textarea.has-error {
 }
 
 a img:hover {
-    -moz-box-shadow: 0 0 10px #BAE779;
-    -webkit-box-shadow: 0 0 10px #BAE779;
-    box-shadow: 0 0 10px #BAE779;
+    -moz-box-shadow: 0px 0px 10px 2px #568611;
+    -webkit-box-shadow: 0px 0px 10px 2px #568611;
+    box-shadow: 0px 0px 10px 2px #568611;
 }
 
 .noBullets li {
@@ -227,6 +227,12 @@ a img:hover {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.div-center-vert {
+    position:relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .overflow-auto {

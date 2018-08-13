@@ -47,8 +47,8 @@ namespace FPC.WebApi.Controllers
                             Title = flickrPhoto.Title,
                             Description = flickrPhoto.Description,
                             Thumbnail = flickrPhoto.ThumbnailUrl,
-                            Small = flickrPhoto.SmallUrl,
-                            Medium = flickrPhoto.MediumUrl,
+                            Small = flickrPhoto.Small320Url,
+                            Medium = flickrPhoto.Medium800Url,
                             Large = flickrPhoto.LargeUrl
                         };
                         photoset.Photos.Add(p);

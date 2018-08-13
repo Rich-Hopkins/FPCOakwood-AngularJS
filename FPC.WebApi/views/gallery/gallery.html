@@ -9,7 +9,30 @@
         </div>
         <h6>{{gallery.selectedGallery.Description}}</h6>
         <div class="photoGrid">
-            <gallery-tile ng-repeat="photo in gallery.selectedGallery.Photos"></gallery-tile>
+            <gallery-tile class="photoCell" ng-repeat="photo in gallery.selectedGallery.Photos"></gallery-tile>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" aria-label="Close" type="button" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Fireworks</h4>
+                </div>
+                <div class="modal-body">
+      <!--              <p>Modal body text goes here.</p>-->
+                    <img class="img-center" src="https://farm2.staticflickr.com/1740/28777360058_c9d1f4df43_b.jpg"/>
+                </div>
+                <!--<div class="modal-footer">
+                    <button class="btn btn-primary" type="button">Save changes</button>
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                </div>-->
+            </div>
         </div>
     </div>
 </div>

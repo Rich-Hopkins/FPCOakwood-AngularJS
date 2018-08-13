@@ -15,7 +15,7 @@
                 function (error) {
                     console.log(error);
                 });
-
+        vm.selectedPhoto = null;
         return vm;
     }
 
