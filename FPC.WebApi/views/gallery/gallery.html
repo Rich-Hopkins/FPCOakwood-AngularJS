@@ -4,14 +4,12 @@
 <div class="row">
     <div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12">
         <h2>Gallery</h2>
-        <div class="form-group">
-            <label for="gallerySelect">Gallery:</label>
-            <select class="form-control" id="gallerySelect" ng-repeat="gallery in gallery.galleryList">
-                <option>{{gallery.Title}}</option>
-            </select>
+        <div class="form-group has-feedback">
+            <select class="form-control" id="gallerySelect" ng-model="gallery.selectedGallery" ng-options="g.Title for g in gallery.galleryList"></select>
         </div>
-        <div>
-            <gallery-tile></gallery-tile>
+        <h6>{{gallery.selectedGallery.Description}}</h6>
+        <div class="photoGrid">
+            <gallery-tile ng-repeat="photo in gallery.selectedGallery.Photos"></gallery-tile>
         </div>
     </div>
 </div>

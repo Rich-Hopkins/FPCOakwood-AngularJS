@@ -10,7 +10,7 @@
         dataService.getData('gallery')
             .then(function (data) {
                 vm.galleryList = data;
-                console.log(vm.galleryList);
+                vm.selectedGallery = vm.galleryList[0];
             },
                 function (error) {
                     console.log(error);
