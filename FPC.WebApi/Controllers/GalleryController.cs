@@ -14,7 +14,7 @@ namespace FPC.WebApi.Controllers
         private string flickrKey;
         private string flickrUser;
         private Flickr flickr;
-
+        
         public IEnumerable<Photoset> Get()
         {
             flickrKey = WebConfigurationManager.AppSettings["FlickrKey"];
@@ -38,20 +38,23 @@ namespace FPC.WebApi.Controllers
 
                 foreach (var photoset in photosets)
                 {
+                    int slideId = 0;
                     var flickrPhotos = flickr.PhotosetsGetPhotos(photoset.Id);
                     foreach (var flickrPhoto in flickrPhotos)
                     {
                         var p = new Photo
                         {
-                            Id = flickrPhoto.PhotoId,
+                            //Id = flickrPhoto.PhotoId,
+                            Id =  slideId,
                             Title = flickrPhoto.Title,
-                            Description = flickrPhoto.Description,
-                            Thumbnail = flickrPhoto.ThumbnailUrl,
+                            //Description = flickrPhoto.Description,
+                            Thumb = flickrPhoto.ThumbnailUrl,
                             Small = flickrPhoto.Small320Url,
-                            Medium = flickrPhoto.Medium800Url,
+                            //Medium = flickrPhoto.Medium800Url,
                             Large = flickrPhoto.LargeUrl
                         };
                         photoset.Photos.Add(p);
+                        slideId++;
                     }
                 }
                 return photosets;

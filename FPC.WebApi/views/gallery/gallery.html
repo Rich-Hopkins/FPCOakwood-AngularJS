@@ -5,13 +5,15 @@
     <div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12">
         <h2>Gallery</h2>
         <div class="form-group has-feedback">
-            <select class="form-control" id="gallerySelect" ng-model="gallery.selectedGallery" ng-options="g.Title for g in gallery.galleryList"></select>
+            <select class="form-control" id="gallerySelect" ng-change="gallery.changeGallery()" ng-model="gallery.selectedGallery" ng-options="g.Title for g in gallery.galleryList"></select>
         </div>
         <h6>{{gallery.selectedGallery.Description}}</h6>
         <div class="photoGrid">
             <gallery-tile class="photoCell" ng-repeat="photo in gallery.selectedGallery.Photos"></gallery-tile>
         </div>
+        
     </div>
+
 
     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
 
@@ -25,8 +27,7 @@
                     <h4 class="modal-title">Fireworks</h4>
                 </div>
                 <div class="modal-body">
-      <!--              <p>Modal body text goes here.</p>-->
-                    <img class="img-center" src="https://farm2.staticflickr.com/1740/28777360058_c9d1f4df43_b.jpg"/>
+
                 </div>
                 <!--<div class="modal-footer">
                     <button class="btn btn-primary" type="button">Save changes</button>

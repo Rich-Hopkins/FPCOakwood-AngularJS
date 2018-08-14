@@ -8,7 +8,7 @@
 	function Home(dataService) {
 		var vm = this;
 
-		dataService.getAllEvents()
+		dataService.getData('events')
 			.then(function (data) {
 				vm.eventsList = data;
 			},

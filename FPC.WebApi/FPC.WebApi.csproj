@@ -170,6 +170,7 @@
     <Content Include="ios\ios-launchimage-768-1024.png" />
     <Content Include="scripts\angular.min.js" />
     <Content Include="scripts\app.js" />
+    <Content Include="scripts\directives\Carousel.js" />
     <Content Include="scripts\directives\EventOnEvents.js" />
     <Content Include="scripts\directives\EventOnHome.js" />
     <Content Include="scripts\directives\GalleryTile.js" />
@@ -206,6 +207,7 @@
     <Content Include="views\fireworksmenu\menu.html" />
     <Content Include="views\fireworksschedule\schedule.html" />
     <Content Include="views\fireworksschedule\ScheduleController.js" />
+    <Content Include="views\gallery\carouselTemplate.html" />
     <Content Include="views\gallery\gallery.html" />
     <Content Include="views\gallery\GalleryController.js" />
     <Content Include="views\gallery\galleryTemplate.html" />

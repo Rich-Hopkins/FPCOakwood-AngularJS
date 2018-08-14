@@ -16,12 +16,13 @@ namespace FPC.WebApi.Models
 
     public class Photo
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
+        //public int SlideId { get; set; }
         public string Title { get; set; }
-        public string Description { get; set; }
-        public string Thumbnail { get; set; }
+        //public string Description { get; set; }
+        public string Thumb { get; set; }
         public string Small { get; set; }
-        public string Medium { get; set; }
+        //public string Medium { get; set; }
         public string Large { get; set; }
     }
 }
