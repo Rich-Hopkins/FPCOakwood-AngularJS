@@ -17,25 +17,25 @@
     <div class="modal fade" id="imageModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                
+
                 <div class="modal-header">
                     <button class="close" aria-label="Close" type="button" data-dismiss="modal">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                
-                <div class="modal-body" ng-repeat="slide in gallery.slides"  ng-show="gallery.show[slide.Id]">
-                    <h4>{{slide.Title}}</h4>
-                    <img class="galleryImage img-center" src={{slide.Large}} />
 
+                <div class="modal-body">
                     <!-- Next/previous controls -->
                     <a class="prev link" ng-click="gallery.plusSlides(-1)">&#10094;</a>
                     <a class="next link" ng-click="gallery.plusSlides(1)">&#10095;</a>
-
+                    <h4>{{slide.Title}}</h4>
+                    <div ng-repeat="slide in gallery.slides" ng-show="gallery.show[slide.Id]">
+                        <img class="galleryImage img-center" src={{slide.Large}} />
+                    </div>
                 </div>
 
                 <div class="modal-footer">
-                    </div>
+                </div>
             </div>
         </div>
     </div>

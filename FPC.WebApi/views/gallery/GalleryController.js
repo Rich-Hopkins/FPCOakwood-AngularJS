@@ -16,7 +16,6 @@
         };
 
         vm.imageClicked = function (index) {
-            console.log(index);
             HideAll();
             vm.show[index] = true;
 

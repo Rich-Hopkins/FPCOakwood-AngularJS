@@ -249,7 +249,7 @@ a img:hover {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 0;
     width: auto;
     padding: 16px;
     margin-top: -50px;
@@ -279,22 +279,19 @@ a img:hover {
     }
 
 .ng-hide-add-active {
-    display: block !important;
+    /*display: block !important;*/
     -webkit-transition: 0.5s ease-in-out all;
     transition: 0.5s ease-in-out all;
 }
 
 .ng-hide-remove-active {
-    display: block !important;
     -webkit-transition: 0.5s ease-in-out all;
     transition: 0.5s ease-in-out all;
     -webkit-transition-delay: 0.5s;
     transition-delay: 0.5s;
-    height: 100%;
 }
 
 .ng-hide {
-    opacity: 0;
     height: 0;
 }
 
