@@ -156,12 +156,6 @@ a img:hover {
     box-shadow: 0px 0px 5px 2px #BAE779;
 }
 
-.slideshow img {
-    min-height: 200px;
-    max-height: 500px;
-    max-width: 100%;
-}
-
 .noBullets li {
     list-style: none;
 }
@@ -230,17 +224,59 @@ a img:hover {
     padding: 2rem;
 }
 
+.galleryGrid {
+    display: grid;
+    grid-template-rows: minmax(0px, 50px) 1fr minmax(0, 50px);
+}
+
+.maxModal {
+    height: 75vh;
+}
+
+.galleryImage {
+    max-width: 100%;
+    max-height: 75vh;
+}
+
 .div-center {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.div-center-vert {
-    position:relative;
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #aaaaaa;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
 }
+
+.prev {
+    left: 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
 
 .overflow-auto {
     overflow: auto;
@@ -261,7 +297,7 @@ a img:hover {
 .link,
 .link:visited,
 .link:focus {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .link-light-blue,

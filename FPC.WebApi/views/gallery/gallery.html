@@ -9,31 +9,38 @@
         </div>
         <h6>{{gallery.selectedGallery.Description}}</h6>
         <div class="photoGrid">
-            <gallery-tile class="photoCell" ng-repeat="photo in gallery.selectedGallery.Photos"></gallery-tile>
+            <gallery-tile class="photoCell" ng-repeat="slide in gallery.slides track by slide.Id"></gallery-tile>
         </div>
-        
+
     </div>
 
 
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#imageModal">Open Modal</button>
 
-    <div class="modal fade" id="myModal">
+    <div class="modal fade" id="imageModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
+                
                 <div class="modal-header">
                     <button class="close" aria-label="Close" type="button" data-dismiss="modal">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <h4 class="modal-title">Fireworks</h4>
                 </div>
-                <div class="modal-body">
+                
+                <div class="modal-body" ng-repeat="slide in gallery.slides"  ng-show="gallery.show[slide.Id]">
+                    <h4>{{slide.Title}}</h4>
+                    <img class="galleryImage img-center" src={{slide.Large}} />
+
+                    <!-- Next/previous controls -->
+                    <a class="prev link" ng-click="gallery.plusSlides(-1)">&#10094;</a>
+                    <a class="next link" ng-click="gallery.plusSlides(1)">&#10095;</a>
 
                 </div>
-                <!--<div class="modal-footer">
-                    <button class="btn btn-primary" type="button">Save changes</button>
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
-                </div>-->
+
+                <div class="modal-footer">
+                    </div>
             </div>
         </div>
     </div>
+
 </div>

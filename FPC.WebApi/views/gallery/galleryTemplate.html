@@ -1,9 +1,9 @@
 ﻿<div class="div-center-vert">
-    <a href=""  ng-click="gallery.OpenModal()" data-toggle="modal" data-target="#myModal">
-        <img class="img-center" src={{photo.Thumb}} />
+    <a href=""  ng-click="gallery.imageClicked(slide.Id)" data-toggle="modal" data-target="#imageModal">
+        <img class="img-center" src={{slide.Thumb}} />
     </a>
-    <a href="" ng-click="gallery.OpenModal()">
-        <h5 class="text-center">{{photo.Title}}</h5>
+    <a href="" ng-click="gallery.imageClicked(slide.Id)" data-toggle="modal" data-target="#imageModal">
+        <h5 class="text-center">{{slide.Title}}</h5>
     </a>
 </div>
 
