@@ -7,21 +7,38 @@
 
     function Gallery(dataService) {
         var vm = this;
-        vm.index = 0;
         vm.show = [];
 
-        vm.changeGallery = function () {
-            vm.slides = vm.selectedGallery.Photos;
-            vm.show = [vm.slides.length];
-        };
+        dataService.getData('gallery')
+            .then(function (data) {
+                vm.galleryList = data;
+                vm.selectedGallery = vm.galleryList[0];
+                vm.slides = vm.selectedGallery.Photos;
+                vm.index = 0;
+                show(-1);
+            },
+                function (error) {
+                    console.log('Error: ' + error);
+                });
+
+        function show(index) {
+            for (var i = 0; i < vm.slides.length; i++) {
+                if (i === index) {
+                    vm.show[i] = '';
+                }
+                else {
+                    vm.show[i] = 'hidden';
+                }
+                console.log('i: ' + i + '   ' + vm.show[i]);
+            }
+        }
 
         vm.imageClicked = function (index) {
-            HideAll();
-            vm.show[index] = true;
-
+            vm.index = index;
+            show(vm.index);
         };
 
-        vm.plusSlides = function(n) {
+        vm.plusSlides = function (n) {
             var i = vm.index + n;
             if (i > vm.slides.length - 1) {
                 i = 0;
@@ -30,25 +47,16 @@
                 i = vm.slides.length - 1;
             }
             vm.index = i;
-            HideAll();
-            vm.show[vm.index] = true;
+            show(vm.index);
         };
 
-        function HideAll() {
-            for (var i = 0; i < vm.show.length; i++) {
-                vm.show[i] = false;
-            }
+        vm.changeGallery = function () {
+            vm.slides = vm.selectedGallery.Photos;
+            vm.show = [vm.slides.length];
+            show(-1);
+            vm.index = 0;
         };
 
-        dataService.getData('gallery')
-            .then(function (data) {
-                vm.galleryList = data;
-                vm.selectedGallery = vm.galleryList[0];
-                vm.slides = vm.selectedGallery.Photos;
-            },
-                function (error) {
-                    console.log('Error: ' + error);
-                });
         return vm;
     }
 
