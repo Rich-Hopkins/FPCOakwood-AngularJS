@@ -278,6 +278,26 @@ a img:hover {
         background-color: rgba(0, 0, 0, 0.8);
     }
 
+.ng-hide-add-active {
+    display: block !important;
+    -webkit-transition: 0.5s ease-in-out all;
+    transition: 0.5s ease-in-out all;
+}
+
+.ng-hide-remove-active {
+    display: block !important;
+    -webkit-transition: 0.5s ease-in-out all;
+    transition: 0.5s ease-in-out all;
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+    height: 100%;
+}
+
+.ng-hide {
+    opacity: 0;
+    height: 0;
+}
+
 .overflow-auto {
     overflow: auto;
 }
