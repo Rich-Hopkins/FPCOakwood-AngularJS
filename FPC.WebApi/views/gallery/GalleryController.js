@@ -7,7 +7,7 @@
 
     function Gallery(dataService) {
         var vm = this;
-        vm.show = [];
+        vm.visible = [];
 
         dataService.getData('gallery')
             .then(function (data) {
@@ -15,27 +15,26 @@
                 vm.selectedGallery = vm.galleryList[0];
                 vm.slides = vm.selectedGallery.Photos;
                 vm.index = 0;
-                show(-1);
+                hideAll();
             },
                 function (error) {
                     console.log('Error: ' + error);
                 });
 
-        function show(index) {
+        function showPicture(index) {
+            vm.visible[index] = '';
+        }
+
+        function hideAll() {
             for (var i = 0; i < vm.slides.length; i++) {
-                if (i === index) {
-                    vm.show[i] = '';
-                }
-                else {
-                    vm.show[i] = 'hidden';
-                }
-                console.log('i: ' + i + '   ' + vm.show[i]);
+                vm.visible[i] = 'hidden';
             }
         }
 
         vm.imageClicked = function (index) {
             vm.index = index;
-            show(vm.index);
+            hideAll();
+            showPicture(vm.index);
         };
 
         vm.plusSlides = function (n) {
@@ -47,19 +46,17 @@
                 i = vm.slides.length - 1;
             }
             vm.index = i;
-            show(vm.index);
+            hideAll();
+            showPicture(vm.index);
         };
 
         vm.changeGallery = function () {
             vm.slides = vm.selectedGallery.Photos;
-            vm.show = [vm.slides.length];
-            show(-1);
+            vm.visible = [vm.slides.length];
+            hideAll();
             vm.index = 0;
         };
 
         return vm;
     }
-
-
-
 })();

@@ -233,6 +233,14 @@ a img:hover {
     height: 75vh;
 }
 
+.modal-wide .modal-dialog {
+    width: 90%;
+}
+
+.modal-wide .modal-body {
+    overflow-y: auto;
+}
+
 .galleryImage {
     max-width: 100%;
     max-height: 75vh;
@@ -253,13 +261,14 @@ a img:hover {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: #aaaaaa;
+    color: #BAE779;
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
+    text-shadow: 0 0 4px #333
 }
 
 .prev {
