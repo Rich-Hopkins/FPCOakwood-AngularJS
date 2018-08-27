@@ -8,24 +8,56 @@ using System.Web.Http;
 using FPC.WebApi.Models;
 using Imgur.API;
 using Imgur.API.Authentication.Impl;
+using Imgur.API.Endpoints.Impl;
+using Imgur.API.Models.Impl;
 
 namespace FPC.WebApi.Controllers
 {
     public class ImgurController : ApiController
     {
-        private string imgurKey;
-        private string imgurSecret;
-        private ImgurClient imgur;
 
-        public IEnumerable<Photoset> Get()
+        public async System.Threading.Tasks.Task<IEnumerable<Photoset>> GetAsync()
         {
-            imgurKey = WebConfigurationManager.AppSettings["ImgurKey"];
-            imgurSecret = WebConfigurationManager.AppSettings["ImgurSecret"];
-            imgur = new ImgurClient(imgurKey, imgurSecret);
 
 
+            try
+            {
+                var imgurClientId = WebConfigurationManager.AppSettings["ImgurClientId"];
+                var imgurSecret = WebConfigurationManager.AppSettings["ImgurSecret"];
+                var imgurClient = new ImgurClient(imgurClientId);
+                
+                var accountEndpoint = new AccountEndpoint(imgurClient);
+                var albumEndpoint = new AlbumEndpoint(imgurClient);
+                var imageEndpoint = new ImageEndpoint(imgurClient);
+                var photosets = new List<Photoset>();
+                var x = new Imgur.API.Models
+                var albums = 
 
-            return Void;
+                foreach (var album in albums)
+                {
+                    var ps = new Photoset
+                    {
+                        Title = album.Title,
+                        Id = album.Id,
+                        Description = album.Description,
+                        Photos = new List<Photo>()
+                    };
+                    photosets.Add(ps);
+                }
+
+                //foreach(var photoset in photosets)
+                //{
+                //    int slideId = 0;
+                //    var 
+                //}
+
+                return photosets;
+            }
+            catch
+            {
+
+            }
+            return null;
         }
     }
 }
