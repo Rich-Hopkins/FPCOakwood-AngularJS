@@ -47,9 +47,6 @@
     <Reference Include="FlickrNet, Version=3.25.0.0, Culture=neutral, PublicKeyToken=2491df59efa5d132, processorArchitecture=MSIL">
       <HintPath>..\packages\FlickrNet.3.25.0\lib\net20\FlickrNet.dll</HintPath>
     </Reference>
-    <Reference Include="Imgur.API, Version=4.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Imgur.API.4.0.1\lib\net45\Imgur.API.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
@@ -241,6 +238,7 @@
     <Compile Include="Models\Email.cs" />
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\Gallery.cs" />
+    <Compile Include="Models\Imgur.cs" />
     <Compile Include="Models\MinistryEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
