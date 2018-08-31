@@ -6,13 +6,14 @@ using System.Web.Configuration;
 using System.Web.Http;
 using System.Web.Script.Serialization;
 using FPC.WebApi.Models.Albums;
+using FPC.WebApi.Models.Images;
 
 namespace FPC.WebApi.Controllers
 {
     public class ImgurController : ApiController
     {
 
-        public List<Datum> Get()
+        public List<Album> Get()
         {
 
 
@@ -23,8 +24,15 @@ namespace FPC.WebApi.Controllers
                 {
                     client.BaseAddress = new Uri("https://api.imgur.com/3/");
                     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Client-ID", "2d5c32e8beb66e4");
-                    var response = client.GetStringAsync("account/fpcoakwood/albums").Result;
-                    var albums = new JavaScriptSerializer().Deserialize<Albums>(response);
+                    var albumResponse = client.GetStringAsync("account/fpcoakwood/albums").Result;
+                    var albums = new JavaScriptSerializer().Deserialize<Albums>(albumResponse);
+
+                    foreach(var album in albums.Data)
+                    {
+                        var imageResponse = client.GetStringAsync(string.Format("album/{0}/images", album.Id)).Result;
+                        var images = new JavaScriptSerializer().Deserialize<Images>(imageResponse).Data;
+                        album.Images = images;
+                    }
                     return albums.Data;
                 }
             }
