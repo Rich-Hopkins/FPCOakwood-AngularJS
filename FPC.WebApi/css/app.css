@@ -288,20 +288,23 @@ a img:hover {
     }
 
 .hidden {
-    height: 0;
+    height: 0 !important;
+    opacity: 0 !important;
 }
 
 .galleryContainer {
     padding-top: 2rem;
-    height: 100%
-    -webkit-transition: 0.5s ease-in-out all;
-    transition: 0.5s ease-in-out all;
-    -webkit-transition-delay: 0.5s;
-    transition-delay: 0.5s;
+    height: 100%;
+    opacity: 1;
+    -webkit-transition: all ease-in-out .5s; /* For Safari 3.1 to 6.0 */
+    transition: all ease-in-out .5s;
+    /*-webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;*/
 }
 
 .ng-hide {
     height: 0;
+    opacity: 0;
 }
 
 .overflow-auto {
