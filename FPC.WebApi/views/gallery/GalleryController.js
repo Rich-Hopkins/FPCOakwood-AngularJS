@@ -9,11 +9,11 @@
         var vm = this;
         vm.visible = [];
 
-        dataService.getData('gallery')
+        dataService.getData('imgur')
             .then(function (data) {
                 vm.galleryList = data;
                 vm.selectedGallery = vm.galleryList[0];
-                vm.slides = vm.selectedGallery.Photos;
+                vm.slides = vm.selectedGallery.Images;
                 vm.index = 0;
                 hideAll();
             },
@@ -51,7 +51,7 @@
         };
 
         vm.changeGallery = function () {
-            vm.slides = vm.selectedGallery.Photos;
+            vm.slides = vm.selectedGallery.Images;
             vm.visible = [vm.slides.length];
             hideAll();
             vm.index = 0;

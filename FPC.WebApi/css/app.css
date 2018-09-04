@@ -1,5 +1,5 @@
-﻿/*Color Scheme: http://paletton.com/#uid=52s0u0kjPqV9TH5fcvxo8nhrYin*/
-/*bootswatch.com cerulean*/
+﻿/* Color Scheme: http://paletton.com/#uid=52s0u0kjPqV9TH5fcvxo8nhrYin */
+/* bootswatch.com cerulean */
 
 @media (min-width: 641px) {
     body {
@@ -257,7 +257,7 @@ a img:hover {
 .next {
     cursor: pointer;
     position: absolute;
-    top: 20px;
+    top: 60px;
     width: auto;
     padding: 16px;
     margin-top: -50px;
@@ -292,6 +292,7 @@ a img:hover {
 }
 
 .galleryContainer {
+    padding-top: 2rem;
     height: 100%
     -webkit-transition: 0.5s ease-in-out all;
     transition: 0.5s ease-in-out all;

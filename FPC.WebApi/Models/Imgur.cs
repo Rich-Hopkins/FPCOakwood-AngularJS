@@ -51,30 +51,32 @@ namespace FPC.WebApi.Models.Images
 
     public class Image
     {
+        public int SlideIndex { get; set; }
         public string Id { get; set; }
         public object Title { get; set; }
         public string Description { get; set; }
-        public long Datetime { get; set; }
-        public string Type { get; set; }
-        public bool Animated { get; set; }
-        public long Width { get; set; }
-        public long Height { get; set; }
-        public long Size { get; set; }
-        public long Views { get; set; }
-        public long Bandwidth { get; set; }
-        public object Vote { get; set; }
-        public bool Favorite { get; set; }
-        public object Nsfw { get; set; }
-        public object Section { get; set; }
-        public object AccountUrl { get; set; }
-        public object AccountId { get; set; }
-        public bool IsAd { get; set; }
-        public bool InMostViral { get; set; }
-        public bool HasSound { get; set; }
-        public List<object> Tags { get; set; }
-        public long AdType { get; set; }
-        public string AdUrl { get; set; }
-        public bool InGallery { get; set; }
+        public string Thumb { get; set; }
+        //public long Datetime { get; set; }
+        //public string Type { get; set; }
+        //public bool Animated { get; set; }
+        //public long Width { get; set; }
+        //public long Height { get; set; }
+        //public long Size { get; set; }
+        //public long Views { get; set; }
+        //public long Bandwidth { get; set; }
+        //public object Vote { get; set; }
+        //public bool Favorite { get; set; }
+        //public object Nsfw { get; set; }
+        //public object Section { get; set; }
+        //public object AccountUrl { get; set; }
+        //public object AccountId { get; set; }
+        //public bool IsAd { get; set; }
+        //public bool InMostViral { get; set; }
+        //public bool HasSound { get; set; }
+        //public List<object> Tags { get; set; }
+        //public long AdType { get; set; }
+        //public string AdUrl { get; set; }
+        //public bool InGallery { get; set; }
         public string Link { get; set; }
     }
 
