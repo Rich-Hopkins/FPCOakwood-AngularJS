@@ -57,6 +57,10 @@
             vm.index = 0;
         };
 
+        vm.animate = function() {
+            vm.hidden === 'hidden' ? vm.hidden = '' : vm.hidden = 'hidden';
+        }
+
         return vm;
     }
 })();
