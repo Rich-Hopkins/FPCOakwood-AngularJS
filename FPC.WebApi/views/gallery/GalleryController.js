@@ -27,7 +27,7 @@
 
         function hideAll() {
             for (var i = 0; i < vm.slides.length; i++) {
-                vm.visible[i] = 'hidden';
+                vm.visible[i] = false;
             }
         }
 
@@ -57,9 +57,9 @@
             vm.index = 0;
         };
 
-        vm.animate = function() {
-            vm.hidden === 'hidden' ? vm.hidden = '' : vm.hidden = 'hidden';
-        }
+        vm.animate = function () {
+            vm.hidden ? vm.hidden = false : vm.hidden = true;
+        };
 
         return vm;
     }

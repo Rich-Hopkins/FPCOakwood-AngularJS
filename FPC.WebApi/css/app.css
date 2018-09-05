@@ -288,8 +288,9 @@ a img:hover {
     }
 
 .hidden {
-    height: 0 !important;
-    opacity: 0 !important;
+    /*height: 0;
+    opacity: 0;*/
+    background: red;
 }
 
 .galleryContainer {
@@ -298,12 +299,11 @@ a img:hover {
     width: 100px;
     background: blue;
     opacity: 1;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
 }
-
-    .galleryContainer.hidden-add,
-    .galleryContainer.hidden-remove {
-        transition: all ease-in-out .5s;
-    }
 
 .ng-hide {
     height: 0;
