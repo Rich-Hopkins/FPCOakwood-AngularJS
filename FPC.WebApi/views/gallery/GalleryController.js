@@ -15,26 +15,26 @@
                 vm.selectedGallery = vm.galleryList[0];
                 vm.slides = vm.selectedGallery.Images;
                 vm.index = 0;
-                hideAll();
+                vm.hideAll();
             },
                 function (error) {
                     console.log('Error: ' + error);
                 });
 
-        function showPicture(index) {
-            vm.visible[index] = '';
-        }
+        vm.showPicture = function(index) {
+            vm.visible[index] = true;
+        };
 
-        function hideAll() {
+        vm.hideAll = function() {
             for (var i = 0; i < vm.slides.length; i++) {
                 vm.visible[i] = false;
             }
-        }
+        };
 
         vm.imageClicked = function (index) {
             vm.index = index;
-            hideAll();
-            showPicture(vm.index);
+            vm.hideAll();
+            vm.showPicture(vm.index);
         };
 
         vm.plusSlides = function (n) {
@@ -46,21 +46,17 @@
                 i = vm.slides.length - 1;
             }
             vm.index = i;
-            hideAll();
-            showPicture(vm.index);
+            vm.hideAll();
+            vm.showPicture(vm.index);
         };
 
         vm.changeGallery = function () {
             vm.slides = vm.selectedGallery.Images;
             vm.visible = [vm.slides.length];
-            hideAll();
+            vm.hideAll();
             vm.index = 0;
         };
-
-        vm.animate = function () {
-            vm.hidden ? vm.hidden = false : vm.hidden = true;
-        };
-
+        
         return vm;
     }
 })();

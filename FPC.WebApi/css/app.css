@@ -288,21 +288,35 @@ a img:hover {
     }
 
 .hidden {
-    /*height: 0;
-    opacity: 0;*/
-    background: red;
+    height: 0;
+    opacity: 0;
 }
 
 .galleryContainer {
     padding-top: 2rem;
-    height: 100px;
-    width: 100px;
-    background: blue;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
     opacity: 1;
-    transition: 1s ease-in-out;
-    -webkit-transition: 1s ease-in-out;
-    -moz-transition: 1s ease-in-out;
-    -o-transition: 1s ease-in-out;
+}
+
+.testDiv {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    opacity: 1;
+}
+
+.testClass {
+    height: 0;
+    opacity: 0;
 }
 
 .ng-hide {
