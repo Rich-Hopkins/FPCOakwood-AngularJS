@@ -30,11 +30,13 @@
                     <!-- Next/previous controls -->
                     <a class="prev link" ng-click="gallery.plusSlides(-1)">&#10094;</a>
                     <a class="next link" ng-click="gallery.plusSlides(1)">&#10095;</a>
-                    <div class="galleryContainer" ng-class="{'hidden': gallery.visible[slide.SlideIndex]}" ng-repeat="slide in gallery.slides">
-                        <!-- ng-class="{gallery.visible[slide.slideIndex]}">-->
-                        <h4 class="text-center">{{slide.Title}}</h4>
-                        <img class="galleryImage img-center" src={{slide.Link}} />
-                        <h5 class="text-center">{{slide.Description}}</h5>
+                    <div ng-repeat="slide in gallery.slides">
+                        <div class="galleryContainer" ng-class="{'hidden': slide.Hidden}">
+                            <!-- ng-class="{gallery.visible[slide.slideIndex]}">-->
+                            <h4 class="text-center">{{slide.Title}}</h4>
+                            <img class="galleryImage img-center" src={{slide.Link}} />
+                            <h5 class="text-center">{{slide.Description}}</h5>
+                        </div>
                     </div>
                 </div>
 

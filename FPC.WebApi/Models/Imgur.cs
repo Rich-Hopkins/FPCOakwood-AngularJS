@@ -17,7 +17,7 @@ namespace FPC.WebApi.Models.Albums
         public string Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public List<Images.Image> Images {get;set;}
+        public List<Images.Image> Images { get; set; }
         //public long Datetime { get; set; }
         //public string Cover { get; set; }
         //public long CoverWidth { get; set; }
@@ -56,7 +56,7 @@ namespace FPC.WebApi.Models.Images
         public object Title { get; set; }
         public string Description { get; set; }
         public string Thumb { get; set; }
-        //public long Datetime { get; set; }
+        public long Datetime { get; set; }
         //public string Type { get; set; }
         //public bool Animated { get; set; }
         //public long Width { get; set; }
@@ -78,6 +78,8 @@ namespace FPC.WebApi.Models.Images
         //public string AdUrl { get; set; }
         //public bool InGallery { get; set; }
         public string Link { get; set; }
+        public bool Hidden { get; set; } = true;
+
     }
 
 }

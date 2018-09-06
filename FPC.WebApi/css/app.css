@@ -230,7 +230,7 @@ a img:hover {
 }
 
 .maxModal {
-    height: 75vh;
+    max-height: 75vh;
 }
 
 .modal-wide .modal-dialog {
@@ -238,12 +238,12 @@ a img:hover {
 }
 
 .modal-wide .modal-body {
-    overflow-y: auto;
+    /*overflow-y: auto;*/
 }
 
 .galleryImage {
     max-width: 100%;
-    max-height: 75vh;
+    max-height: 65vh;
 }
 
 .div-center {
@@ -287,11 +287,6 @@ a img:hover {
         background-color: rgba(0, 0, 0, 0.8);
     }
 
-.hidden {
-    height: 0;
-    opacity: 0;
-}
-
 .galleryContainer {
     padding-top: 2rem;
     height: 100%;
@@ -301,6 +296,11 @@ a img:hover {
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     opacity: 1;
+}
+
+.hidden {
+    height: 0;
+    opacity: 0;
 }
 
 .testDiv {

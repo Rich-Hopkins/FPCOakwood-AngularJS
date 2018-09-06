@@ -7,7 +7,6 @@
 
     function Gallery(dataService) {
         var vm = this;
-        vm.visible = [];
 
         dataService.getData('imgur')
             .then(function (data) {
@@ -15,30 +14,30 @@
                 vm.selectedGallery = vm.galleryList[0];
                 vm.slides = vm.selectedGallery.Images;
                 vm.index = 0;
-                vm.hideAll();
             },
                 function (error) {
                     console.log('Error: ' + error);
                 });
 
-        vm.showPicture = function(index) {
-            vm.visible[index] = true;
+        vm.showPicture = function () {
+            vm.slides[vm.index].Hidden = false;
         };
 
-        vm.hideAll = function() {
+        vm.hideAll = function () {
             for (var i = 0; i < vm.slides.length; i++) {
-                vm.visible[i] = false;
+                vm.slides[i].Hidden = true;
             }
         };
 
         vm.imageClicked = function (index) {
             vm.index = index;
             vm.hideAll();
-            vm.showPicture(vm.index);
+            vm.showPicture();
         };
 
         vm.plusSlides = function (n) {
             var i = vm.index + n;
+            vm.slides[vm.index].Hidden = true;
             if (i > vm.slides.length - 1) {
                 i = 0;
             }
@@ -46,17 +45,15 @@
                 i = vm.slides.length - 1;
             }
             vm.index = i;
-            vm.hideAll();
-            vm.showPicture(vm.index);
+            vm.showPicture();
         };
 
         vm.changeGallery = function () {
             vm.slides = vm.selectedGallery.Images;
-            vm.visible = [vm.slides.length];
             vm.hideAll();
             vm.index = 0;
         };
-        
+
         return vm;
     }
 })();
