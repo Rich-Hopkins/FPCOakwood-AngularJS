@@ -242,6 +242,7 @@ a img:hover {
 }
 
 .galleryImage {
+    position:relative;
     max-width: 100%;
     max-height: 65vh;
 }
@@ -265,7 +266,6 @@ a img:hover {
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
     text-shadow: 0 0 4px #333
@@ -273,6 +273,7 @@ a img:hover {
 
 .prev {
     left: 0;
+    border-radius: 0 3px 3px 0;
 }
 
 /* Position the "next button" to the right */
@@ -298,7 +299,7 @@ a img:hover {
     opacity: 1;
 }
 
-.hidden {
+.fpcHidden {
     height: 0;
     opacity: 0;
 }

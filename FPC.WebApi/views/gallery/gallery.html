@@ -5,7 +5,7 @@
     <div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12">
 
         <!--<button ng-click="gallery.animate()">Animate</button>
-        <div class="testDiv" ng-class="{'testClass': gallery.hidden}"></div>-->
+        <div class="testDiv" ng-class="{'fpcHidden': gallery.hidden}"></div>-->
         <h2>Gallery</h2>
         <div class="form-group has-feedback">
             <select class="form-control" id="gallerySelect" ng-change="gallery.changeGallery()" ng-model="gallery.selectedGallery" ng-options="g.Title for g in gallery.galleryList"></select>
@@ -31,8 +31,7 @@
                     <a class="prev link" ng-click="gallery.plusSlides(-1)">&#10094;</a>
                     <a class="next link" ng-click="gallery.plusSlides(1)">&#10095;</a>
                     <div ng-repeat="slide in gallery.slides">
-                        <div class="galleryContainer" ng-class="{'hidden': slide.Hidden}">
-                            <!-- ng-class="{gallery.visible[slide.slideIndex]}">-->
+                        <div class="galleryContainer" ng-class="{'fpcHidden': slide.Hidden}">
                             <h4 class="text-center">{{slide.Title}}</h4>
                             <img class="galleryImage img-center" src={{slide.Link}} />
                             <h5 class="text-center">{{slide.Description}}</h5>
