@@ -56,6 +56,10 @@
             vm.index = 0;
         };
 
+        vm.animate = function () {
+            vm.hidden = !vm.hidden;
+        };
+
         return vm;
     }
 })();
