@@ -36,7 +36,14 @@ namespace FPC.WebApi.Controllers
                         {
                             image.SlideIndex = slideIndex;
                             slideIndex++;
-                            image.Thumb = string.Format("http://i.imgur.com/{0}t.jpg", image.Id);
+                            image.Thumb = string.Format("http://i.imgur.com/{0}m.jpg", image.Id);
+                            //imgur image sizes:
+                            //s = small square = 90x90
+                            //b = big square = 160x160
+                            //t = small thumbnail = 160x160
+                            //m = medium thumb = 320x320
+                            //l = large thumb = 640x640
+                            //h = huge thumb = 1024x1024
                         }
                         album.Images = images;
                     }

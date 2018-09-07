@@ -46,6 +46,8 @@
             }
             vm.index = i;
             vm.showPicture();
+            console.log(vm.index);
+            console.log(vm.slides);
         };
 
         vm.changeGallery = function () {
