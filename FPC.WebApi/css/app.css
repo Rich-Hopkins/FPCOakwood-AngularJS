@@ -234,7 +234,7 @@ a img:hover {
 }
 
 .modal-tall {
-    height: 95vw;
+    height: 85vh;
 }
 
 .galleryImage {
@@ -292,7 +292,7 @@ a img:hover {
 
 .imageSlide {
     padding-top: 2rem;
-    max-height: 95vw;
+    /*max-height: 95vh;*/
     margin: 0 auto;
     margin-bottom: 20px;
     position: absolute;
