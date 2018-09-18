@@ -3,9 +3,6 @@
 
 <div class="row">
     <div class="transparentWhite col-md-8 col-md-offset-2 col-sm-12">
-
-        <!--<button ng-click="gallery.animate()">Animate</button>
-        <div class="testDiv" ng-class="{'testClass': gallery.hidden}"></div>-->
         <h2>Gallery</h2>
         <div class="form-group has-feedback">
             <select class="form-control" id="gallerySelect" ng-change="gallery.changeGallery()" ng-model="gallery.selectedGallery" ng-options="g.Title for g in gallery.galleryList"></select>
@@ -26,15 +23,17 @@
                     </button>
                 </div>
 
-                <div class="modal-body">
+                <div class="modal-body modal-tall">
                     <!-- Next/previous controls -->
                     <a class="prev link" ng-click="gallery.plusSlides(-1)">&#10094;</a>
                     <a class="next link" ng-click="gallery.plusSlides(1)">&#10095;</a>
-                    <div class="imageslide" ng-switch="gallery.index" ng-animate="animate" ng-repeat="slide in gallery.slides">
-                        <div class="slider-content" ng-switch-when="{{slide.SlideIndex}}">
-                            <h4 class="text-center">{{slide.Title}}</h4>
-                            <img class="galleryImage img-center" src={{slide.Link}} />
-                            <h5 class="text-center">{{slide.Description}}</h5>
+                    <div class="imageSlide" ng-switch="{{gallery.index}}" ng-animate="'animate'">
+                        <div ng-repeat="slide in gallery.slides">
+                            <div class="slider-content" ng-switch-when="{{slide.SlideIndex}}">
+                                <h4 class="text-center">{{slide.Title}}</h4>
+                                <img class="galleryImage img-center" src={{slide.Link}} />
+                                <h5 class="text-center">{{slide.Description}}</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
