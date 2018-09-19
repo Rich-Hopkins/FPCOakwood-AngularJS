@@ -306,11 +306,11 @@ a img:hover {
 }
 
 .animate-enter, .animate-leave {
-    -webkit-transition: 1000ms ease-in-out all;
-    -moz-transition: 1000ms ease-in-out all;
-    -ms-transition: 1000ms ease-in-out all;
-    -o-transition: 1000ms ease-in-out all;
-    transition: 1000ms ease-in-out all;
+    -webkit-transition: 5000ms ease-in-out all;
+    -moz-transition: 5000ms ease-in-out all;
+    -ms-transition: 5000ms ease-in-out all;
+    -o-transition: 5000ms ease-in-out all;
+    transition: 5000ms ease-in-out all;
 }
 
 .animate-enter {

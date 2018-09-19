@@ -21,6 +21,7 @@
         
         vm.imageClicked = function (index) {
             vm.index = index;
+            vm.slides[index].Hidden = false;
         };
 
         vm.plusSlides = function (n) {
@@ -32,13 +33,22 @@
                 i = vm.slides.length - 1;
             }
             vm.index = i;
-            console.log(vm.index);
-            console.log(vm.slides);
+            vm.hideAll();
+            vm.slides[i].Hidden = false;
         };
+
+        vm.hideAll = function() {
+            vm.slides.forEach((slide) => {
+                slide.Hidden = true;
+            });
+        };
+
+
 
         vm.changeGallery = function () {
             vm.slides = vm.selectedGallery.Images;
             vm.index = -1;
+            vm.hideAll();
         };
         return vm;
     }
