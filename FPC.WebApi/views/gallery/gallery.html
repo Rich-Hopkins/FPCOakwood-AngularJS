@@ -11,7 +11,7 @@
     </div>
 
     <div class="modal modal-wide fade" id="imageModal">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-tall" role="document">
             <div class="modal-content">
 
                 <div class="modal-header">
@@ -20,13 +20,14 @@
                     </button>
                 </div>
 
-                <div class="modal-body modal-tall">
+                <div class="modal-body modal-tall-body">
                     <!-- Next/previous controls -->
                     <a class="prev link" ng-click="gallery.plusSlides(-1)">&#10094;</a>
                     <a class="next link" ng-click="gallery.plusSlides(1)">&#10095;</a>
-                    <div ng-class="{hidden:slide.Hidden}" ng-if="!slide.Hidden" ng-repeat="slide in gallery.slides">
+
+                    <div class="galleryContainer" ng-class="{'slideVisible': slide.Visible}" ng-repeat="slide in gallery.slides">
                         <h4 class="text-center">{{slide.Title}}</h4>
-                        <img class="galleryImage img-center" src={{slide.Link}} />
+                        <img class="galleryImage img-center shadow" src={{slide.Link}} />
                         <h5 class="text-center">{{slide.Description}}</h5>
                     </div>
                 </div>

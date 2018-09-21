@@ -78,7 +78,7 @@ namespace FPC.WebApi.Models.Images
         //public string AdUrl { get; set; }
         //public bool InGallery { get; set; }
         public string Link { get; set; }
-        public bool Hidden { get; set; } = true;
+        public bool Visible { get; set; } = false;
 
     }
 
