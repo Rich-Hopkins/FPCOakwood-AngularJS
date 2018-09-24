@@ -11,65 +11,6 @@ Nursery,
 Parking, 
 Sound Booth, 
 
-Date, 2018-08-22
-Event, VBS
-Meal Prep, Trish R, Rich H
-Meal, Spaghetti with Meatballs
-Snack, Pam L, Amber W, Anna K, Mary S
-Teacher, Lauren C
-
-Date, 2018-08-26
-Altar, Mary S, C Tillmutt
-Announcemenets, Lloyd V
-Baptism, John S, C Tillmutt
-Bus - Lenox, Garfield W
-Bus - Evergreen, John S
-Foyer Usher, Mike B
-Greeter, Mike C
-Inspiration, Zachary J
-Nursery, Ginger G, Asia C
-Parking, Fred E
-Sound Booth, John S, Daniel R
-
-Date, 2018-09-02
-Altar, Joe J, Carolyn J
-Announcements, Keith B
-Baptism, John S, Mary S
-Bus-Lenox, Fred E
-Bus-Evergreen, John S
-Usher, Scott R
-Greeter, Joe J
-Inspiration, Trish R
-Nursery, Melissa M
-Parking, Mike B
-Sound Booth, Rich H, Delila D
-
-Date, 2018-09-09
-Altar, Suzi H, Wanda B
-Announcements, Zachary J
-Baptism, Joe J, Carolyn J
-Bus-Lenox, Garfield W
-Bus-Evergreen, John S
-Usher, Fred E
-Greeter, Mary S
-Inspiration, Keith B
-Nursery, Marsha P
-Parking, Mike B
-Sound Booth, Scott R, Trevin L
-
-Date, 2018-09-16
-Altar, Mary S, C Tillmutt
-Announcements, Lloyd V
-Baptism, Fred E, Mary H
-Bus-Lenox, Adam H
-Bus-Evergreen, John S
-Usher, Garfield W
-Greeter, Karen W
-Inspiration, Kathy E
-Nursery, Sabrina K
-Parking, Scott R
-Sound Booth, John S, Daniel R
-
 Date, 2018-09-23
 Altar, Regina V, Joe J
 Announcements, Keith B
@@ -133,7 +74,7 @@ Greeter, Karen W
 Inspiration, Kathy E
 Nursery, Sabrina K
 Parking, Mike B
-Sound Booth, Scott R, Trein L
+Sound Booth, Scott R, Trevin L
 
 Date, 2018-10-28
 Altar, Mary S, C Tillmutt

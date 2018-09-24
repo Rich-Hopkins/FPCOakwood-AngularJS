@@ -20,6 +20,7 @@
                 });
         
         vm.imageClicked = function (index) {
+            vm.hideAll();
             vm.index = index;
             vm.slides[index].Visible = true;
         };
