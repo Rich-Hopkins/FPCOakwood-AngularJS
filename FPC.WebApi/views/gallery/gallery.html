@@ -21,15 +21,14 @@
                 </div>
 
                 <div class="modal-body modal-tall-body">
+                    <div class="galleryContainer" ng-class="{'slideVisible': slide.Visible}" ng-repeat="slide in gallery.slides">
+                        <h4 class="text-center">{{slide.Title}}</h4>
+                        <img class="galleryImage img-center shadow" src={{slide.Link}} ng-click="gallery.plusSlides(1)"/>
+                        <h5 class="text-center">{{slide.Description}}</h5>
+                    </div>
                     <!-- Next/previous controls -->
                     <a class="prev link" ng-click="gallery.plusSlides(-1)">&#10094;</a>
                     <a class="next link" ng-click="gallery.plusSlides(1)">&#10095;</a>
-
-                    <div class="galleryContainer" ng-class="{'slideVisible': slide.Visible}" ng-repeat="slide in gallery.slides">
-                        <h4 class="text-center">{{slide.Title}}</h4>
-                        <img class="galleryImage img-center shadow" src={{slide.Link}} />
-                        <h5 class="text-center">{{slide.Description}}</h5>
-                    </div>
                 </div>
 
                 <div class="modal-footer">
