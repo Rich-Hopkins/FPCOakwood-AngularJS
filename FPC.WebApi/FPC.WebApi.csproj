@@ -90,8 +90,12 @@
     <Content Include="android\android-launchericon-512-512.png" />
     <Content Include="android\android-launchericon-72-72.png" />
     <Content Include="android\android-launchericon-96-96.png" />
-    <Content Include="App_Data\eventdata.txt" />
-    <Content Include="App_Data\ministrydata.txt" />
+    <Content Include="App_Data\eventdata.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\ministrydata.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="assets\favicons\android-chrome-192x192.png" />
     <Content Include="assets\favicons\android-chrome-256x256.png" />
     <Content Include="assets\favicons\apple-touch-icon.png" />
