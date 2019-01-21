@@ -11,64 +11,35 @@ Nursery,
 Parking, 
 Sound Booth, 
 
-Date, 2018-11-11
-Altar, Suzi H, Wanda B
-Announcements, Zachary J
-Baptism, Joe J, Carolyn J
-Bus-Lenox, Garfield W
-Bus-Evergreen, John S
-Usher, Fred E
-Greeter, Mary S
-Inspiration, Sis. Stewart
-Nursery, Marsha P
-Parking, Mike B
-Sound Booth, Scott R, Trevin L
-
-Date, 2018-11-18
-Altar, Mary S, C Tillmutt
-Announcements, Lloyd V
-Baptism, Fred E, Mary H
-Bus-Lenox, Adam H
-Bus-Evergreen, John S
-Usher, Garfield W
-Greeter, Karen W
-Inspiration, Kathy E
-Nursery, Sabrina K
-Parking, Scott R
-Sound Booth, John S, Daniel R
-
-Date, 2018-11-25
-Altar, Regina V, Joe J
+Date, 2019-01-27
+Altar, Regina V, Wanda B
 Announcements, Keith B
-Baptism, Joe J, C Tillmutt
+Baptism, C Tillmutt
 Bus-Lenox, Fred E
-Bus-Evergreen, John S
 Usher, Mike B
 Greeter, Mike C
 Inspiration, Zachary J
 Nursery, Ginger G, Asia C
-Parking, Fred E
+Parking, Scott R
 Sound Booth, Scott R, Trevin L
 
-Date, 2018-12-02
-Altar, Joe J, Carolyn J
+Date, 2019-02-03
+Altar, Suzi H, Carolyn J
 Announcements, Zachary J
 Baptism, John S, Mary S
-Bus-Lenox, Fred E
-Bus-Evergreen, John S
+Bus - Lenox, Adam H
 Usher, Scott R
-Greeter, Joe J
+Greeter, Mary S
 Inspiration, Keith B
 Nursery, Melissa M
 Parking, Mike B
 Sound Booth, Rich H, Delila D
 
-Date, 2018-12-09
+Date, 2019-02-10
 Altar, Suzi H, Wanda B
 Announcements, Lloyd V
-Baptism, Joe J, Carolyn J
-Bus-Lenox, Garfield W
-Bus-Evergreen, John S
+Baptism, John S, Carolyn J
+Bus - Lenox, Fred E
 Usher, Scott R
 Greeter, Mary S
 Inspiration, Rhonda B
@@ -76,12 +47,11 @@ Nursery, Melissa M
 Parking, Mike B
 Sound Booth, Scott R, Trevin L
 
-Date, 2018-12-16
-Altar, Joe J, Carolyn J
+Date, 2019-02-17
+Altar, Mary S, C Tillmutt
 Announcements, Keith B
 Baptism, Fred E, Mary H
-Bus-Lenox, Adam H
-Bus-Evergreen, John S
+Bus - Lenox, Adam H
 Usher, Garfield W
 Greeter, Karen W
 Inspiration, Kathy E
@@ -89,28 +59,14 @@ Nursery, Marsha P
 Parking, Scott R
 Sound Booth, John S, Daniel R
 
-Date, 2018-12-23
-Altar, Regina V, Joe J
+Date, 2019-02-24
+Altar, Regina V, Wanda B
 Announcements, Zachary J
-Baptism, Joe J, C Tillmutt
-Bus-Lenox, Fred E
-Bus-Evergreen, John S
+Baptism, C Tillmutt
+Bus - Lenox, Fred E
 Usher, Mike B
 Greeter, Mike C
-Inspiration, Zachary J
+Inspiration, Trish R
 Nursery, Sabrina K
 Parking, Scott R
 Sound Booth, Scott R, Trevin L
-
-Date, 2018-12-30
-Altar, Joe J, Carolyn J
-Announcements, Lloyd V
-Baptism, John S, Mary S
-Bus-Lenox, Fred E
-Bus-Evergreen, John S
-Usher, Scott R
-Greeter, Joe J
-Inspiration, Keith B
-Nursery, Melissa M
-Parking, Mike B
-Sound Booth, Rich H, Delila D
