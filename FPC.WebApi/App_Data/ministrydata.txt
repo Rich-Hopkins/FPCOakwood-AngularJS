@@ -11,11 +11,11 @@ Nursery,
 Parking, 
 Sound Booth, 
 
-Date, 2019-03-03
+Date, 2019-05-05
 Altar, Suzi H, Carolyn J
 Announcements, Keith B
 Baptism, John S, Mary S
-Bus-Lenox, Adam H, Melisa H
+Bus-Lenox, Adam H
 Usher, Scott R
 Greeter, Mike C
 Inspiration, Zachary J
@@ -23,7 +23,7 @@ Nursery, Melissa M
 Parking, John S
 Sound Booth, Rich H, Delila D
 
-Date, 2019-03-10
+Date, 2019-05-12
 Altar, Suzi H, Wanda B
 Announcements, Zachary J
 Baptism, John S, Carolyn J
@@ -35,7 +35,7 @@ Nursery, Marsha P
 Parking, Scott R
 Sound Booth, John S, Daniel R
 
-Date, 2019-03-17
+Date, 2019-05-19
 Altar, Mary S, C Tillmutt
 Announcements, Lloyd V
 Baptism, Fred E, Mary H
@@ -45,9 +45,9 @@ Greeter, Karen W
 Inspiration, Kathy E
 Nursery, Ginger G, Asia C
 Parking, Mike B
-Sound Booth, Scott R, Trevin L
+Sound Booth, Scott R, Dustyn R
 
-Date, 2019-03-24
+Date, 2019-05-26
 Altar, Regina V, Wanda B
 Announcements, Keith B
 Baptism, C Tillmutt
@@ -55,66 +55,66 @@ Bus-Lenox, Fred E
 Usher, Mike B
 Greeter, Mike C
 Inspiration, Rhonda B
-Nursery, Meliisa M
-Parking, John S
-Sound Booth, Rich H, Delila D
+Nursery, Melissa M
+Parking, Scott R
+Sound Booth, Rich H, Daniel R
 
-Date, 2019-03-31
-Altar, Regina V, Wanda B
-Announcements, Zachary J
-Baptism, C Tillmutt
-Bus-Lenox, Fred E
-Usher, Garfield W
-Greeter, Mary S
-Inspiration, Trish R
-Nursery, Marsha P
-Parking, Mike B
-Sound Booth, Scott R, Trevin L
-
-Date, 2019-04-07
+Date, 2019-06-02
 Altar, Suzi H, Carolyn J
-Announcements, Lloyd V
+Announcements, Zachary J
 Baptism, John S, Mary S
 Bus-Lenox, Adam H
 Usher, Scott R
 Greeter, Mike C
 Inspiration, Zachary J
-Nursery, Ginger G, Asia C
-Parking, Mike B
-Sound Booth, John S, Daniel R
-
-Date, 2019-04-14
-Altar, Suzi H, Wanda B
-Announcements, Keith B
-Baptism, John S, Carolyn J
-Bus-Lenox, Garfield W
-Usher, Mike B
-Greeter, Mary S
-Inspiration, Keith B
 Nursery, Melissa M
-Parking, Scott R
+Parking, Fred E
 Sound Booth, Rich H, Delila D
 
-Date, 2019-04-21
+Date, 2019-06-09
+Altar, Suzi H, Wanda B
+Announcements, Lloyd V
+Baptism, John S, Carolyn J
+Bus-Lenox, Garfield W
+Usher, Fred E
+Greeter, Mary S
+Inspiration, Keith B
+Nursery, Marsha P
+Parking, Mike B
+Sound Booth, Scott R, Dustyn R
+
+Date, 2019-06-16
 Altar, Mary S, C Tillmutt
-Announcements, Zachary J
+Announcements, Keith B
 Baptism, Fred E, Mary H
 Bus-Lenox, Adam H
 Usher, Garfield W
 Greeter, Karen W
 Inspiration, Kathy E
-Nursery, Marsha P
-Parking, John S
-Sound Booth, Scott R, Trevin L
+Nursery, Ginger G, Asia C
+Parking, Mike B
+Sound Booth, John S, Daniel R
 
-Date, 2019-04-28
+Date, 2019-06-23
 Altar, Regina V, Wanda B
-Announcements, Lloyd V
+Announcements, Zachary J
 Baptism, C Tillmutt
 Bus-Lenox, Fred E
 Usher, Mike B
 Greeter, Mike C
 Inspiration, Rhonda B
-Nursery, Ginger G, Asia C
+Nursery, Melissa M
+Parking, John S
+Sound Booth, Scott R, Delila D
+
+Date, 2019-06-30
+Altar, Regina V, Wanda B
+Announcements, Lloyd V
+Baptism, C Tillmutt
+Bus-Lenox, Fred E
+Usher, Mike B
+Greeter, Mary S
+Inspiration, Zachary J
+Nursery, Marsha P
 Parking, Scott R
-Sound Booth, John S, Daniel R
+Sound Booth,John S, Daniel R
