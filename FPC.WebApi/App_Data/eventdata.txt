@@ -6,11 +6,11 @@
 *Display Date (when to start displaying the event)
 *Start Date (start date of the event)
 *End Date (end date of the event)
-Souls Harbor Concert!
-Souls Harbor Youth Choir - Friday, June 7th at 7:30 PM! Join us for music, fellowship, and worship!
-Souls Harbor Youth Choir will be coming to First Pentecostal Church of Oakwood on Friday, June 7th at 7:30 PM! Join us for music, fellowship, and worship! We're looking forward to seeing you there!
-SoulsHarbor
+All Nations Sunday
+August 11 - All Nations Sunday - Missions service and international dinner following service
+All Nations Sunday missions service will be followed by a dinner with an international flair. Come join us for food, fellowship, fun, and to help support the Mothers Memorial missions fund!
+AllNationsSunday
 
-2019-05-20
-2019-06-07
-2019-06-07
+2019-06-30
+2019-08-11
+2019-08-11

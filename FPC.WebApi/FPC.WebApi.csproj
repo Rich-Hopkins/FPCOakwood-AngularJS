@@ -124,11 +124,11 @@
     <Content Include="assets\images\building-small-portrait.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\images\event-images\SoulsHarbor-1000w.jpg" />
-    <Content Include="assets\images\event-images\SoulsHarbor-1500w.jpg" />
-    <Content Include="assets\images\event-images\SoulsHarbor-250w.jpg" />
-    <Content Include="assets\images\event-images\SoulsHarbor-400w.jpg" />
-    <Content Include="assets\images\event-images\SoulsHarbor-500w.jpg" />
+    <Content Include="assets\images\event-images\AllNationsSunday-1000w.jpg" />
+    <Content Include="assets\images\event-images\AllNationsSunday-1500w.jpg" />
+    <Content Include="assets\images\event-images\AllNationsSunday-250w.jpg" />
+    <Content Include="assets\images\event-images\AllNationsSunday-400w.jpg" />
+    <Content Include="assets\images\event-images\AllNationsSunday-500w.jpg" />
     <Content Include="assets\images\facebook.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
