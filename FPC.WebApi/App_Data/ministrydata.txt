@@ -11,86 +11,90 @@ Nursery,
 Parking, 
 Sound Booth, 
 
-Date, 2019-07-07
-Altar, Suzi H, Carolyn J
+Date, 2019-09-08
+Altar, Suzi H, Wanda B
 Announcements, Keith B
-Baptism, John S, Mary S
-Usher, Scott R
-Inspiration, Keith B
-Nursery, Marsha P
-Parking, Fred E
-Sound Booth, Rich H, Delila D
-
-Date, 2019-07-14
-Altar, Mary S, C Tillmutt
-Announcements, Zachary J
 Baptism, John S, Carolyn J
-Usher, Mike B
+Usher, Scott R
 Greeter, Mary S
-Inspiration, Kathy E
+Inspiration, Fred E
 Nursery, Ginger G, Asia C
 Parking, Scott R
 Sound Booth, John S, Daniel R
 
-Date, 2019-07-21
-Altar, Suzi H, Wanda B
-Announcements, Lloyd V
-Baptism, Fred E, Mary H
-Usher, Fred E
-Greeter, Karen W
-Inspiration, Rhonda B
-Nursery, Emily B
-Parking, Mike B
-Sound Booth, Scott R, Delila D
-
-Date, 2019-07-28
-Altar, Regina V, Wanda B
-Announcements, Keith B
-Baptism, C Tillmutt
-Usher, Mike B
-Inspiration, Zachary J
-Nursery, Marsha P
-Parking, John S
-Sound Booth, Dustyn R, Rich H
-
-Date, 2019-08-04
-Altar, Suzi H, Carolyn J
-Announcements, Zachary J
-Baptism, John S, Mary S
-Usher, Scott R
-Inspiration, Fred E
-Nursery, Ginger G, Asia C
-Parking, Mike B
-Sound Booth, John S, Daniel R
-
-Date, 2019-08-11
+Date, 2019-09-15
 Altar, Mary S, C Tillmutt
-Announcements, Lloyd V
-Baptism, John S, Carolyn J
-Usher, Fred E
-Greeter, Mary S
+Announcements, Zachary J
+Baptism, Fred E, Mary H
+Usher, Garfield W
+Greeter, Karen W
 Inspiration, Keith B
 Nursery, Emily B
 Parking, Mike B
 Sound Booth, Scott R, Dustyn R
 
-Date, 2019-08-18
+Date, 2019-09-22
+Altar, Regina V, Wanda B
+Announcements, Lloyd V
+Baptism, Fred E, Mary H
+Usher, Fred E
+Greeter,
+Inspiration, Kathy E
+Nursery, Marsha P
+Parking, John S
+Sound Booth, Rich H, Delila D
+
+Date, 2019-09-29
+Altar, Suzi H, Carolyn J
+Announcements, Keith B
+Baptism, John S, Mary S
+Usher, Scott R
+Greeter, Keith B
+Inspiration, Rhonda B
+Nursery, Ginger G, Asia C
+Parking, Fred E
+Sound Booth, John S, Daniel R
+
+Date, 2019-10-06
 Altar, Suzi H, Wanda B
+Announcements, Zachary J
+Baptism, John S, Mary H
+Usher, Mike B
+Greeter, Keith B
+Inspiration, Zachary J
+Nursery, Emily B
+Parking, Scott R
+Sound Booth, John S, Daniel R
+
+Date, 2019-10-13
+Altar, Mary S, C Tillmutt
+Announcements, 
+Baptism, Fred E, Mary S
+Usher, Fred E
+Greeter, Mary S
+Inspiration, Keith B
+Nursery, Marsha P
+Parking, Mike B
+Sound Booth, Scott R, Dustyn R
+
+Date, 2019-10-20
+Altar, Mary S, Wanda B
 Announcements, Keith B
 Baptism, Fred E, Mary H
 Usher, Garfield W
 Greeter, Karen W
-Inspiration, Kathy E
-Nursery, Marsha P
-Parking, Scott R
-Sound Booth, Rich H, Delila D
-
-Date, 2019-08-25
-Altar, Regina V, Wanda B
-Announcements, Zachary J
-Baptism, C Tillmutt
-Usher, Mike B
-Inspiration, Rhonda B
+Inspiration, Fred E
 Nursery, Ginger G, Asia C
 Parking, John S
+Sound Booth, Rich H, Delila D
+
+Date, 2019-10-27
+Altar, Suzi H, Carolyn J
+Announcements, Zachary J
+Baptism, John S, Mary S
+Usher, Scott R
+Greeter, Trish R
+Inspiration, Kathy E
+Nursery, Emily B
+Parking, Fred E
 Sound Booth, John S, Daniel R
