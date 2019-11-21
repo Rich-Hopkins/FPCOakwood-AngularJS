@@ -11,12 +11,12 @@ Nursery,
 Parking, 
 Sound Booth, 
 
-Date, 2019-11-10
+Date, 2019-11-24
 Announcements, Keith B
-Baptism, John S, Carolyn J
+Baptism, Mary H
 Foyer Usher, Mike B
-Greeter, Suzi H
-Inspiration, Keith B
-Nursery, Ginger G, Asia C
-Parking, Scott R
-Sound, Scott R, Dustyn R
+Greeter, Mary S
+Inspiration, Ashley L
+Nursery, Marsha P
+Parking, John S
+Sound, Rich H, Dustyn R
