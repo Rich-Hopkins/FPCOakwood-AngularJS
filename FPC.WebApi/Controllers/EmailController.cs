@@ -34,7 +34,7 @@ namespace FPC.WebApi.Controllers
 			var smtpAddress = WebConfigurationManager.AppSettings["smtpAddress"];
 			var smtpPort = int.Parse(WebConfigurationManager.AppSettings["smtpPort"]);
 
-			var subject = "FPCOakwood.org Contact: " + msg.Name;
+			var subject = "OakwoodFirstChurch.com Contact: " + msg.Name;
 			string body = "<h3>From: " + msg.Name + "</br>";
 			body += "Email: " + msg.Address + "</h3>";
 			body += "<p>" + msg.Message + "</p>";

@@ -33,6 +33,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>AllFilesInTheProject</FilesToIncludeForPublish>
+    <LegacyPublishPropertiesPageEnabled>true</LegacyPublishPropertiesPageEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -115,9 +117,6 @@
     <Content Include="assets\images\building-opengraph-large.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="assets\images\building-opengraph-small.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="assets\images\building-small-landscape.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -129,6 +128,7 @@
     <Content Include="assets\images\event-images\AllNationsSunday-250w.jpg" />
     <Content Include="assets\images\event-images\AllNationsSunday-400w.jpg" />
     <Content Include="assets\images\event-images\AllNationsSunday-500w.jpg" />
+    <Content Include="assets\images\event-images\Easter Sunday.png" />
     <Content Include="assets\images\facebook.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -141,6 +141,9 @@
     <Content Include="assets\images\FPCLogo-small.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="assets\images\ofc-opengraph-small.jpg" />
+    <Content Include="assets\images\OFC_Logo_Large_Web.png" />
+    <Content Include="assets\images\OFC_Logo_Small_Web.png" />
     <Content Include="assets\images\Stewarts-square-large.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -153,8 +156,9 @@
     <Content Include="assets\images\Stewarts-wide.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="assets\OFC_Covid_Worship.mp3" />
     <Content Include="css\app.css">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="css\bootstrap.css" />
     <Content Include="favicon.png" />
@@ -220,6 +224,8 @@
     <Content Include="views\gallery\gallery.html" />
     <Content Include="views\gallery\GalleryController.js" />
     <Content Include="views\gallery\galleryTemplate.html" />
+    <Content Include="views\giving\giving.html" />
+    <Content Include="views\giving\GivingController.js" />
     <Content Include="views\home\home.html" />
     <Content Include="views\home\HomeController.js" />
     <Content Include="views\home\homeEventTemplate.html" />

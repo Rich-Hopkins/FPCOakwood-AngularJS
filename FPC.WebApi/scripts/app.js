@@ -61,6 +61,12 @@
                     controllerAs: 'donate',
                     templateUrl: 'views/donate/donatefail.html'
                 })
+            .when('/giving',
+                {
+                    controller: 'Giving',
+                    controllerAs: 'giving',
+                    templateUrl: 'views/giving/giving.html'
+                })
             .when('/assignments',
                 {
                     controller: 'Assignments',
